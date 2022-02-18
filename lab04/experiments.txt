@@ -1,0 +1,21 @@
+
+CAR DIMENSIONS
+
+<-- L -->
+
+|------|
+|      ->
+|------|
+
+18 cm long
+14.2 cm wide
+8 cm tall
+8 cm wheel diameter
+
+
+BATTERY LIFE
+4 minutes,  35 seconds
+Spun the bot as much as it could before it refused to move
+Battery was warmer after all movement happened
+
+BATTERY CHARGING

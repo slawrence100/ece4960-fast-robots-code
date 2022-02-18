@@ -27,10 +27,12 @@ void setup()
     myICM.begin(WIRE_PORT, AD0_VAL);
     if (myICM.status != ICM_20948_Stat_Ok)
     {
+      Serial.print(myICM.status);
       delay(500);
     }
     else
     {
+      Serial.print("Setup OK");
       initialized = true;
     }
   }
@@ -43,7 +45,6 @@ void loop()
   {
     myICM.getAGMT();         // The values are only updated when you call 'getAGMT'                  
     printScaledAGMT(&myICM); // This function takes into account the scale settings from when the measurement was made to calculate the values with units
-    delay(30);
   }
   else
   {
@@ -89,7 +90,9 @@ void printFormattedFloat(float val, uint8_t leading, uint8_t decimals)
 }
 
 void printScaledAGMT(ICM_20948_I2C *sensor){
-
+  SERIAL_PORT.print("Time:");
+  SERIAL_PORT.print(millis());
+  SERIAL_PORT.print(",");
   SERIAL_PORT.print("AccPitch:");
   printFormattedFloat(atan2(sensor->accX(), sensor->accZ())* 360 / (2 * M_PI),3,2);
   SERIAL_PORT.print(", ");

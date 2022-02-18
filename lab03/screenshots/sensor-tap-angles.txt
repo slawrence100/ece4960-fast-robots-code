@@ -1,218 +1,1242 @@
-AccPitch: 027.35, AccRoll:-077.93
-AccPitch: 025.99, AccRoll:-077.87
-AccPitch: 022.69, AccRoll:-078.06
-AccPitch: 026.83, AccRoll:-077.91
-AccPitch: 023.32, AccRoll:-077.31
-AccPitch: 024.63, AccRoll:-077.83
-AccPitch: 022.85, AccRoll:-076.86
-AccPitch: 022.90, AccRoll:-077.18
-AccPitch: 025.68, AccRoll:-077.95
-AccPitch: 022.96, AccRoll:-077.30
-AccPitch: 024.43, AccRoll:-077.68
-AccPitch: 022.79, AccRoll:-077.67
-AccPitch: 023.11, AccRoll:-077.56
-AccPitch: 027.23, AccRoll:-077.83
-AccPitch: 022.73, AccRoll:-077.35
-AccPitch: 021.66, AccRoll:-077.00
-AccPitch: 023.44, AccRoll:-077.23
-AccPitch: 023.94, AccRoll:-077.65
-AccPitch: 024.23, AccRoll:-077.74
-AccPitch: 026.25, AccRoll:-078.05
-AccPitch: 023.30, AccRoll:-077.29
-AccPitch: 023.60, AccRoll:-077.18
-AccPitch: 021.27, AccRoll:-077.12
-AccPitch: 025.73, AccRoll:-077.89
-AccPitch: 022.15, AccRoll:-076.84
-AccPitch: 022.42, AccRoll:-077.63
-AccPitch: 023.71, AccRoll:-077.42
-AccPitch: 021.87, AccRoll:-077.90
-AccPitch: 023.52, AccRoll:-076.67
-AccPitch: 023.30, AccRoll:-077.44
-AccPitch: 023.17, AccRoll:-077.30
-AccPitch: 021.74, AccRoll:-077.43
-AccPitch: 023.08, AccRoll:-077.38
-AccPitch: 023.47, AccRoll:-077.90
-AccPitch: 024.73, AccRoll:-077.51
-AccPitch: 022.48, AccRoll:-077.19
-AccPitch:-031.95, AccRoll:-045.00
-AccPitch:-010.03, AccRoll: 047.21
-AccPitch: 025.25, AccRoll:-052.94
-AccPitch:-022.00, AccRoll:-030.86
-AccPitch:-146.09, AccRoll:-100.15
-AccPitch: 030.44, AccRoll:-008.74
-AccPitch: 050.35, AccRoll:-078.11
-AccPitch: 033.21, AccRoll:-077.44
-AccPitch: 029.33, AccRoll:-077.61
-AccPitch: 030.53, AccRoll:-077.09
-AccPitch: 031.67, AccRoll:-077.26
-AccPitch: 030.96, AccRoll:-077.28
-AccPitch: 027.81, AccRoll:-076.98
-AccPitch: 031.36, AccRoll:-077.59
-AccPitch: 031.80, AccRoll:-077.80
-AccPitch: 028.69, AccRoll:-077.17
-AccPitch: 030.56, AccRoll:-077.22
-AccPitch: 029.81, AccRoll:-077.41
-AccPitch: 030.63, AccRoll:-077.26
-AccPitch: 031.80, AccRoll:-077.45
-AccPitch: 029.09, AccRoll:-077.07
-AccPitch: 030.01, AccRoll:-077.41
-AccPitch: 029.49, AccRoll:-077.39
-AccPitch: 028.56, AccRoll:-076.69
-AccPitch: 031.54, AccRoll:-077.56
-AccPitch: 032.79, AccRoll:-077.69
-AccPitch: 029.22, AccRoll:-076.92
-AccPitch: 029.98, AccRoll:-077.73
-AccPitch: 028.39, AccRoll:-077.18
-AccPitch: 029.74, AccRoll:-077.03
-AccPitch: 029.71, AccRoll:-077.03
-AccPitch: 027.29, AccRoll:-076.99
-AccPitch: 028.76, AccRoll:-076.99
-AccPitch: 030.72, AccRoll:-077.37
-AccPitch: 028.90, AccRoll:-077.53
-AccPitch: 030.42, AccRoll:-077.07
-AccPitch: 027.47, AccRoll:-077.37
-AccPitch: 028.07, AccRoll:-076.66
-AccPitch: 030.87, AccRoll:-077.41
-AccPitch: 032.85, AccRoll:-077.27
-AccPitch: 028.85, AccRoll:-076.85
-AccPitch: 026.94, AccRoll: 035.42
-AccPitch: 025.69, AccRoll: 005.54
-AccPitch: 007.98, AccRoll:-026.25
-AccPitch: 042.34, AccRoll:-079.01
-AccPitch: 042.00, AccRoll:-080.05
-AccPitch: 032.76, AccRoll:-079.91
-AccPitch: 029.10, AccRoll:-076.50
-AccPitch: 035.03, AccRoll:-077.64
-AccPitch: 033.99, AccRoll:-077.86
-AccPitch: 031.15, AccRoll:-077.48
-AccPitch: 035.61, AccRoll:-076.90
-AccPitch: 032.40, AccRoll:-077.00
-AccPitch: 032.55, AccRoll:-076.98
-AccPitch: 031.29, AccRoll:-076.71
-AccPitch: 035.00, AccRoll:-077.32
-AccPitch: 031.51, AccRoll:-076.91
-AccPitch: 034.72, AccRoll:-076.62
-AccPitch: 034.77, AccRoll:-076.89
-AccPitch: 033.58, AccRoll:-077.17
-AccPitch: 036.08, AccRoll:-077.21
-AccPitch: 031.94, AccRoll:-077.42
-AccPitch: 034.29, AccRoll:-077.28
-AccPitch: 033.97, AccRoll:-077.11
-AccPitch: 033.81, AccRoll:-077.36
-AccPitch: 030.09, AccRoll:-076.65
-AccPitch: 037.14, AccRoll:-077.83
-AccPitch: 035.91, AccRoll:-077.47
-AccPitch: 034.04, AccRoll:-077.55
-AccPitch: 032.46, AccRoll:-077.61
-AccPitch: 031.90, AccRoll:-077.36
-AccPitch: 115.36, AccRoll: 104.25
-AccPitch: 043.97, AccRoll:-003.36
-AccPitch: 017.88, AccRoll:-046.65
-AccPitch: 009.57, AccRoll:-042.62
-AccPitch: 101.15, AccRoll:-090.92
-AccPitch:-075.84, AccRoll: 075.06
-AccPitch: 056.02, AccRoll:-074.62
-AccPitch: 034.68, AccRoll:-076.92
-AccPitch: 030.96, AccRoll:-077.20
-AccPitch: 032.98, AccRoll:-077.11
-AccPitch: 033.63, AccRoll:-077.15
-AccPitch: 033.80, AccRoll:-076.56
-AccPitch: 033.29, AccRoll:-077.27
-AccPitch: 034.91, AccRoll:-077.22
-AccPitch: 033.63, AccRoll:-077.15
-AccPitch: 035.03, AccRoll:-077.25
-AccPitch: 033.72, AccRoll:-077.57
-AccPitch: 034.72, AccRoll:-076.95
-AccPitch: 036.00, AccRoll:-077.35
-AccPitch: 032.81, AccRoll:-076.92
-AccPitch: 034.14, AccRoll:-076.99
-AccPitch: 034.06, AccRoll:-077.05
-AccPitch: 035.21, AccRoll:-077.45
-AccPitch: 034.52, AccRoll:-077.41
-AccPitch: 034.09, AccRoll:-077.19
-AccPitch: 033.05, AccRoll:-077.38
-AccPitch: 034.12, AccRoll:-077.30
-AccPitch: 033.95, AccRoll:-077.28
-AccPitch: 034.10, AccRoll:-077.70
-AccPitch: 038.19, AccRoll:-077.57
-AccPitch: 036.16, AccRoll:-077.61
-AccPitch: 037.94, AccRoll:-077.47
-AccPitch: 034.56, AccRoll:-077.00
-AccPitch: 031.78, AccRoll:-077.17
-AccPitch: 033.55, AccRoll:-076.97
-AccPitch: 035.07, AccRoll:-077.25
-AccPitch: 034.37, AccRoll:-076.66
-AccPitch: 035.66, AccRoll:-077.03
-AccPitch: 033.63, AccRoll:-077.22
-AccPitch: 031.76, AccRoll:-077.02
-AccPitch: 033.49, AccRoll:-077.19
-AccPitch: 033.72, AccRoll:-077.30
-AccPitch: 034.00, AccRoll:-077.12
-AccPitch: 032.79, AccRoll:-077.30
-AccPitch: 034.79, AccRoll:-077.43
-AccPitch: 035.44, AccRoll:-077.56
-AccPitch: 033.86, AccRoll:-077.26
-AccPitch: 033.55, AccRoll:-077.09
-AccPitch: 032.81, AccRoll:-076.82
-AccPitch: 033.75, AccRoll:-077.23
-AccPitch: 033.20, AccRoll:-076.48
-AccPitch: 034.35, AccRoll:-077.33
-AccPitch: 035.32, AccRoll:-077.31
-AccPitch: 033.78, AccRoll:-077.24
-AccPitch: 033.94, AccRoll:-076.71
-AccPitch: 034.68, AccRoll:-077.70
-AccPitch: 033.35, AccRoll:-077.09
-AccPitch: 034.01, AccRoll:-077.27
-AccPitch: 034.87, AccRoll:-077.38
-AccPitch: 035.34, AccRoll:-077.33
-AccPitch: 035.22, AccRoll:-077.55
-AccPitch: 036.05, AccRoll:-077.36
-AccPitch: 033.69, AccRoll:-077.00
-AccPitch: 034.08, AccRoll:-076.87
-AccPitch: 037.01, AccRoll:-077.58
-AccPitch: 035.34, AccRoll:-077.55
-AccPitch: 032.32, AccRoll:-077.16
-AccPitch: 033.27, AccRoll:-076.84
-AccPitch: 034.43, AccRoll:-077.32
-AccPitch: 031.91, AccRoll:-076.85
-AccPitch: 035.00, AccRoll:-077.88
-AccPitch: 035.65, AccRoll:-077.69
-AccPitch: 034.82, AccRoll:-077.18
-AccPitch: 034.21, AccRoll:-076.66
-AccPitch: 035.18, AccRoll:-077.49
-AccPitch: 036.35, AccRoll:-077.61
-AccPitch: 034.21, AccRoll:-077.23
-AccPitch: 032.65, AccRoll:-076.79
-AccPitch: 033.75, AccRoll:-077.63
-AccPitch: 036.52, AccRoll:-077.65
-AccPitch: 032.02, AccRoll:-076.65
-AccPitch: 033.72, AccRoll:-077.11
-AccPitch: 036.00, AccRoll:-077.56
-AccPitch: 032.43, AccRoll:-076.97
-AccPitch: 036.53, AccRoll:-077.30
-AccPitch: 033.02, AccRoll:-076.60
-AccPitch: 031.38, AccRoll:-076.87
-AccPitch: 032.29, AccRoll:-077.18
-AccPitch: 033.93, AccRoll:-077.59
-AccPitch: 034.00, AccRoll:-077.17
-AccPitch: 033.75, AccRoll:-077.21
-AccPitch: 035.18, AccRoll:-077.64
-AccPitch: 034.79, AccRoll:-077.91
-AccPitch: 035.48, AccRoll:-077.29
-AccPitch: 034.74, AccRoll:-077.33
-AccPitch: 036.33, AccRoll:-077.19
-AccPitch: 037.21, AccRoll:-077.49
-AccPitch: 037.41, AccRoll:-077.20
-AccPitch: 035.82, AccRoll:-077.25
-AccPitch: 034.51, AccRoll:-077.04
-AccPitch: 036.00, AccRoll:-077.50
-AccPitch: 034.71, AccRoll:-077.24
-AccPitch: 033.18, AccRoll:-077.06
-AccPitch: 035.27, AccRoll:-077.53
-AccPitch: 033.66, AccRoll:-076.97
-AccPitch: 035.26, AccRoll:-077.81
-AccPitch: 033.25, AccRoll:-076.82
-AccPitch: 034.81, AccRoll:-077.42
-AccPitch: 034.09, AccRoll:-077.30
-AccPitch: 034.24, AccRoll:-076.95
-AccPitch: 034.44, AccRoll:-076.94
+Time:575,AccPitch:-055.75, AccRoll:-065.91
+Time:581,AccPitch:-057.25, AccRoll:-066.84
+Time:587,AccPitch:-055.06, AccRoll:-065.02
+Time:593,AccPitch:-055.20, AccRoll:-065.49
+Time:599,AccPitch:-056.22, AccRoll:-066.80
+Time:605,AccPitch:-054.97, AccRoll:-064.82
+Time:611,AccPitch:-055.55, AccRoll:-066.48
+Time:617,AccPitch:-057.03, AccRoll:-066.70
+Time:623,AccPitch:-054.91, AccRoll:-065.52
+Time:629,AccPitch:-056.45, AccRoll:-066.29
+Time:635,AccPitch:-056.06, AccRoll:-065.70
+Time:641,AccPitch:-055.51, AccRoll:-065.83
+Time:647,AccPitch:-056.82, AccRoll:-066.48
+Time:653,AccPitch:-054.92, AccRoll:-065.95
+Time:659,AccPitch:-056.32, AccRoll:-066.38
+Time:665,AccPitch:-056.36, AccRoll:-065.90
+Time:671,AccPitch:-055.21, AccRoll:-065.52
+Time:677,AccPitch:-055.81, AccRoll:-065.54
+Time:683,AccPitch:-056.00, AccRoll:-066.20
+Time:689,AccPitch:-054.86, AccRoll:-065.49
+Time:695,AccPitch:-055.91, AccRoll:-065.92
+Time:701,AccPitch:-055.03, AccRoll:-065.82
+Time:707,AccPitch:-054.67, AccRoll:-065.49
+Time:713,AccPitch:-056.83, AccRoll:-066.73
+Time:719,AccPitch:-055.66, AccRoll:-066.13
+Time:725,AccPitch:-056.79, AccRoll:-066.31
+Time:731,AccPitch:-056.45, AccRoll:-066.09
+Time:737,AccPitch:-056.44, AccRoll:-066.67
+Time:743,AccPitch:-056.79, AccRoll:-066.73
+Time:749,AccPitch:-055.62, AccRoll:-065.87
+Time:755,AccPitch:-057.02, AccRoll:-067.27
+Time:761,AccPitch:-054.62, AccRoll:-065.63
+Time:767,AccPitch:-055.94, AccRoll:-065.94
+Time:773,AccPitch:-056.37, AccRoll:-066.69
+Time:779,AccPitch:-055.86, AccRoll:-065.59
+Time:785,AccPitch:-055.15, AccRoll:-065.79
+Time:791,AccPitch:-055.93, AccRoll:-065.54
+Time:797,AccPitch:-056.26, AccRoll:-066.05
+Time:803,AccPitch:-055.35, AccRoll:-066.02
+Time:809,AccPitch:-056.08, AccRoll:-066.21
+Time:815,AccPitch:-056.23, AccRoll:-066.21
+Time:821,AccPitch:-056.08, AccRoll:-065.83
+Time:827,AccPitch:-056.23, AccRoll:-066.19
+Time:833,AccPitch:-055.86, AccRoll:-065.83
+Time:839,AccPitch:-054.57, AccRoll:-065.41
+Time:845,AccPitch:-055.15, AccRoll:-065.52
+Time:851,AccPitch:-056.39, AccRoll:-066.31
+Time:857,AccPitch:-056.93, AccRoll:-066.76
+Time:863,AccPitch:-055.57, AccRoll:-065.65
+Time:869,AccPitch:-055.85, AccRoll:-065.77
+Time:875,AccPitch:-055.19, AccRoll:-065.41
+Time:881,AccPitch:-055.21, AccRoll:-066.11
+Time:887,AccPitch:-056.13, AccRoll:-066.00
+Time:893,AccPitch:-055.85, AccRoll:-065.99
+Time:899,AccPitch:-056.12, AccRoll:-066.07
+Time:905,AccPitch:-055.36, AccRoll:-066.12
+Time:911,AccPitch:-056.75, AccRoll:-066.83
+Time:917,AccPitch:-055.60, AccRoll:-065.33
+Time:923,AccPitch:-056.67, AccRoll:-066.57
+Time:929,AccPitch:-055.42, AccRoll:-065.97
+Time:935,AccPitch:-055.69, AccRoll:-065.99
+Time:941,AccPitch:-056.11, AccRoll:-065.94
+Time:946,AccPitch:-056.05, AccRoll:-065.61
+Time:952,AccPitch:-055.57, AccRoll:-065.60
+Time:958,AccPitch:-056.87, AccRoll:-066.68
+Time:964,AccPitch:-055.68, AccRoll:-065.65
+Time:970,AccPitch:-055.18, AccRoll:-065.15
+Time:976,AccPitch:-055.82, AccRoll:-065.79
+Time:982,AccPitch:-055.44, AccRoll:-065.83
+Time:988,AccPitch:-055.26, AccRoll:-066.11
+Time:994,AccPitch:-054.54, AccRoll:-065.63
+Time:1000,AccPitch:-056.17, AccRoll:-066.05
+Time:1006,AccPitch:-055.78, AccRoll:-066.21
+Time:1013,AccPitch:-056.35, AccRoll:-066.24
+Time:1019,AccPitch:-055.70, AccRoll:-065.55
+Time:1025,AccPitch:-056.36, AccRoll:-066.17
+Time:1031,AccPitch:-055.43, AccRoll:-065.85
+Time:1037,AccPitch:-055.74, AccRoll:-066.14
+Time:1043,AccPitch:-055.96, AccRoll:-065.60
+Time:1049,AccPitch:-056.54, AccRoll:-066.65
+Time:1055,AccPitch:-056.29, AccRoll:-066.36
+Time:1061,AccPitch:-056.11, AccRoll:-065.51
+Time:1067,AccPitch:-054.81, AccRoll:-065.42
+Time:1073,AccPitch:-056.25, AccRoll:-066.21
+Time:1079,AccPitch:-055.17, AccRoll:-065.48
+Time:1085,AccPitch:-055.50, AccRoll:-065.56
+Time:1091,AccPitch:-055.99, AccRoll:-066.40
+Time:1098,AccPitch:-055.10, AccRoll:-065.55
+Time:1104,AccPitch:-056.46, AccRoll:-066.10
+Time:1110,AccPitch:-055.80, AccRoll:-066.24
+Time:1116,AccPitch:-055.99, AccRoll:-065.68
+Time:1122,AccPitch:-056.20, AccRoll:-066.23
+Time:1128,AccPitch:-055.59, AccRoll:-065.85
+Time:1134,AccPitch:-055.32, AccRoll:-065.95
+Time:1140,AccPitch:-056.63, AccRoll:-066.66
+Time:1146,AccPitch:-054.87, AccRoll:-065.40
+Time:1152,AccPitch:-055.87, AccRoll:-066.02
+Time:1158,AccPitch:-055.18, AccRoll:-065.95
+Time:1164,AccPitch:-055.38, AccRoll:-065.78
+Time:1170,AccPitch:-055.55, AccRoll:-066.02
+Time:1176,AccPitch:-056.42, AccRoll:-066.94
+Time:1182,AccPitch:-055.66, AccRoll:-066.20
+Time:1189,AccPitch:-056.76, AccRoll:-066.60
+Time:1195,AccPitch:-057.15, AccRoll:-067.10
+Time:1201,AccPitch:-055.77, AccRoll:-065.80
+Time:1207,AccPitch:-055.81, AccRoll:-065.84
+Time:1213,AccPitch:-056.50, AccRoll:-066.06
+Time:1219,AccPitch:-056.20, AccRoll:-066.44
+Time:1225,AccPitch:-055.76, AccRoll:-065.99
+Time:1231,AccPitch:-055.89, AccRoll:-066.13
+Time:1237,AccPitch:-056.55, AccRoll:-066.21
+Time:1243,AccPitch:-054.93, AccRoll:-065.58
+Time:1249,AccPitch:-055.87, AccRoll:-065.82
+Time:1255,AccPitch:-054.74, AccRoll:-065.28
+Time:1261,AccPitch:-055.62, AccRoll:-065.69
+Time:1267,AccPitch:-054.99, AccRoll:-066.12
+Time:1274,AccPitch:-056.47, AccRoll:-066.42
+Time:1280,AccPitch:-055.51, AccRoll:-065.73
+Time:1286,AccPitch:-056.13, AccRoll:-065.98
+Time:1292,AccPitch:-056.14, AccRoll:-066.38
+Time:1298,AccPitch:-056.40, AccRoll:-066.30
+Time:1304,AccPitch:-055.40, AccRoll:-065.40
+Time:1310,AccPitch:-055.19, AccRoll:-065.13
+Time:1316,AccPitch:-055.76, AccRoll:-066.10
+Time:1322,AccPitch:-055.12, AccRoll:-065.69
+Time:1328,AccPitch:-055.43, AccRoll:-065.95
+Time:1334,AccPitch:-056.96, AccRoll:-066.77
+Time:1340,AccPitch:-055.65, AccRoll:-065.72
+Time:1346,AccPitch:-056.78, AccRoll:-066.64
+Time:1352,AccPitch:-055.87, AccRoll:-066.47
+Time:1359,AccPitch:-055.97, AccRoll:-066.01
+Time:1365,AccPitch:-055.27, AccRoll:-065.86
+Time:1371,AccPitch:-055.32, AccRoll:-065.67
+Time:1377,AccPitch:-056.54, AccRoll:-066.42
+Time:1383,AccPitch:-056.22, AccRoll:-066.71
+Time:1389,AccPitch:-055.66, AccRoll:-065.83
+Time:1395,AccPitch:-056.96, AccRoll:-066.62
+Time:1401,AccPitch:-055.84, AccRoll:-066.47
+Time:1407,AccPitch:-056.56, AccRoll:-067.02
+Time:1413,AccPitch:-056.08, AccRoll:-065.92
+Time:1419,AccPitch:-055.46, AccRoll:-065.99
+Time:1425,AccPitch:-055.27, AccRoll:-065.49
+Time:1431,AccPitch:-056.49, AccRoll:-065.89
+Time:1437,AccPitch:-055.87, AccRoll:-066.61
+Time:1444,AccPitch:-055.59, AccRoll:-066.45
+Time:1450,AccPitch:-055.77, AccRoll:-065.88
+Time:1456,AccPitch:-056.25, AccRoll:-066.30
+Time:1462,AccPitch:-055.76, AccRoll:-065.86
+Time:1468,AccPitch:-055.37, AccRoll:-065.78
+Time:1474,AccPitch:-055.20, AccRoll:-065.36
+Time:1480,AccPitch:-056.15, AccRoll:-066.04
+Time:1486,AccPitch:-055.41, AccRoll:-066.13
+Time:1492,AccPitch:-055.66, AccRoll:-065.99
+Time:1498,AccPitch:-056.22, AccRoll:-066.47
+Time:1504,AccPitch:-055.75, AccRoll:-066.35
+Time:1510,AccPitch:-056.08, AccRoll:-066.22
+Time:1516,AccPitch:-054.72, AccRoll:-065.60
+Time:1522,AccPitch:-056.09, AccRoll:-066.32
+Time:1529,AccPitch:-056.03, AccRoll:-066.36
+Time:1535,AccPitch:-056.78, AccRoll:-066.83
+Time:1541,AccPitch:-056.08, AccRoll:-066.41
+Time:1547,AccPitch:-056.14, AccRoll:-066.26
+Time:1553,AccPitch:-056.61, AccRoll:-066.46
+Time:1559,AccPitch:-055.04, AccRoll:-065.26
+Time:1565,AccPitch:-055.60, AccRoll:-065.97
+Time:1571,AccPitch:-055.49, AccRoll:-066.03
+Time:1577,AccPitch:-056.05, AccRoll:-066.64
+Time:1583,AccPitch:-055.12, AccRoll:-065.58
+Time:1589,AccPitch:-056.79, AccRoll:-066.16
+Time:1595,AccPitch:-055.77, AccRoll:-066.02
+Time:1601,AccPitch:-055.42, AccRoll:-065.66
+Time:1607,AccPitch:-056.02, AccRoll:-066.15
+Time:1614,AccPitch:-056.15, AccRoll:-065.91
+Time:1620,AccPitch:-055.19, AccRoll:-065.42
+Time:1626,AccPitch:-056.57, AccRoll:-066.42
+Time:1632,AccPitch:-056.01, AccRoll:-065.86
+Time:1638,AccPitch:-055.13, AccRoll:-065.95
+Time:1644,AccPitch:-055.11, AccRoll:-065.83
+Time:1650,AccPitch:-056.35, AccRoll:-066.06
+Time:1656,AccPitch:-055.37, AccRoll:-065.98
+Time:1662,AccPitch:-055.85, AccRoll:-066.16
+Time:1668,AccPitch:-055.60, AccRoll:-065.95
+Time:1674,AccPitch:-056.04, AccRoll:-065.97
+Time:1680,AccPitch:-056.10, AccRoll:-065.98
+Time:1686,AccPitch:-055.75, AccRoll:-065.42
+Time:1692,AccPitch:-054.60, AccRoll:-065.20
+Time:1698,AccPitch:-056.07, AccRoll:-065.98
+Time:1705,AccPitch:-055.75, AccRoll:-066.24
+Time:1711,AccPitch:-055.86, AccRoll:-066.06
+Time:1717,AccPitch:-055.59, AccRoll:-065.30
+Time:1723,AccPitch:-055.33, AccRoll:-065.57
+Time:1729,AccPitch:-056.03, AccRoll:-065.94
+Time:1735,AccPitch:-055.08, AccRoll:-065.64
+Time:1741,AccPitch:-056.32, AccRoll:-065.89
+Time:1747,AccPitch:-055.59, AccRoll:-065.66
+Time:1753,AccPitch:-055.56, AccRoll:-065.70
+Time:1759,AccPitch:-057.18, AccRoll:-067.04
+Time:1765,AccPitch:-056.29, AccRoll:-066.22
+Time:1771,AccPitch:-055.60, AccRoll:-066.20
+Time:1777,AccPitch:-056.30, AccRoll:-065.97
+Time:1783,AccPitch:-056.17, AccRoll:-066.08
+Time:1790,AccPitch:-056.53, AccRoll:-066.18
+Time:1796,AccPitch:-055.27, AccRoll:-065.89
+Time:1802,AccPitch:-055.80, AccRoll:-066.21
+Time:1808,AccPitch:-055.90, AccRoll:-065.10
+Time:1814,AccPitch:-055.47, AccRoll:-066.19
+Time:1820,AccPitch:-055.47, AccRoll:-065.85
+Time:1826,AccPitch:-055.81, AccRoll:-065.78
+Time:1832,AccPitch:-056.68, AccRoll:-066.55
+Time:1838,AccPitch:-056.70, AccRoll:-067.16
+Time:1844,AccPitch:-045.00, AccRoll:034.99
+Time:1850,AccPitch:-018.84, AccRoll:-019.49
+Time:1856,AccPitch:-058.50, AccRoll:-020.57
+Time:1862,AccPitch:-058.80, AccRoll:-057.34
+Time:1868,AccPitch:-045.00, AccRoll:045.00
+Time:1874,AccPitch:-088.90, AccRoll:082.64
+Time:1880,AccPitch:-049.86, AccRoll:031.55
+Time:1886,AccPitch:-087.25, AccRoll:-089.09
+Time:1892,AccPitch:131.34, AccRoll:-136.45
+Time:1898,AccPitch:145.69, AccRoll:-166.16
+Time:1904,AccPitch:050.98, AccRoll:-082.87
+Time:1910,AccPitch:128.00, AccRoll:-108.17
+Time:1916,AccPitch:065.74, AccRoll:-087.09
+Time:1922,AccPitch:-049.30, AccRoll:-066.20
+Time:1928,AccPitch:-076.76, AccRoll:-079.21
+Time:1934,AccPitch:-056.45, AccRoll:-070.02
+Time:1941,AccPitch:-065.91, AccRoll:-075.30
+Time:1947,AccPitch:-067.79, AccRoll:-074.18
+Time:1953,AccPitch:-088.18, AccRoll:-088.66
+Time:1959,AccPitch:-071.40, AccRoll:-081.86
+Time:1965,AccPitch:-073.95, AccRoll:-081.99
+Time:1971,AccPitch:-073.39, AccRoll:-082.09
+Time:1977,AccPitch:-063.07, AccRoll:-074.11
+Time:1983,AccPitch:-050.56, AccRoll:-069.85
+Time:1989,AccPitch:-049.71, AccRoll:-067.99
+Time:1995,AccPitch:-047.12, AccRoll:-062.91
+Time:2001,AccPitch:-052.82, AccRoll:-070.10
+Time:2007,AccPitch:-065.85, AccRoll:-074.82
+Time:2013,AccPitch:-055.86, AccRoll:-068.42
+Time:2019,AccPitch:-052.92, AccRoll:-067.29
+Time:2026,AccPitch:-056.48, AccRoll:-067.66
+Time:2032,AccPitch:-054.13, AccRoll:-066.00
+Time:2038,AccPitch:-060.09, AccRoll:-068.82
+Time:2044,AccPitch:-058.27, AccRoll:-068.42
+Time:2050,AccPitch:-056.15, AccRoll:-066.28
+Time:2056,AccPitch:-056.09, AccRoll:-066.21
+Time:2062,AccPitch:-055.66, AccRoll:-064.19
+Time:2068,AccPitch:-055.78, AccRoll:-063.74
+Time:2074,AccPitch:-056.26, AccRoll:-062.63
+Time:2080,AccPitch:-056.21, AccRoll:-063.64
+Time:2086,AccPitch:-056.39, AccRoll:-063.61
+Time:2092,AccPitch:-055.86, AccRoll:-062.86
+Time:2098,AccPitch:-057.19, AccRoll:-064.09
+Time:2104,AccPitch:-056.61, AccRoll:-063.99
+Time:2111,AccPitch:-056.38, AccRoll:-064.20
+Time:2117,AccPitch:-054.89, AccRoll:-063.64
+Time:2123,AccPitch:-056.02, AccRoll:-065.37
+Time:2129,AccPitch:-054.73, AccRoll:-064.32
+Time:2135,AccPitch:-054.53, AccRoll:-062.77
+Time:2141,AccPitch:-056.64, AccRoll:-065.00
+Time:2147,AccPitch:-055.64, AccRoll:-065.55
+Time:2153,AccPitch:-055.73, AccRoll:-064.90
+Time:2159,AccPitch:-055.59, AccRoll:-065.11
+Time:2165,AccPitch:-056.06, AccRoll:-065.78
+Time:2171,AccPitch:-056.61, AccRoll:-065.59
+Time:2177,AccPitch:-055.41, AccRoll:-064.66
+Time:2183,AccPitch:-057.15, AccRoll:-065.72
+Time:2189,AccPitch:-056.32, AccRoll:-065.66
+Time:2196,AccPitch:-055.94, AccRoll:-065.97
+Time:2202,AccPitch:-056.25, AccRoll:-066.24
+Time:2208,AccPitch:-055.45, AccRoll:-066.24
+Time:2214,AccPitch:-055.34, AccRoll:-065.32
+Time:2220,AccPitch:-055.79, AccRoll:-064.98
+Time:2226,AccPitch:-057.75, AccRoll:-067.28
+Time:2232,AccPitch:-055.26, AccRoll:-067.49
+Time:2238,AccPitch:-055.87, AccRoll:-066.03
+Time:2244,AccPitch:-055.76, AccRoll:-065.15
+Time:2250,AccPitch:-056.38, AccRoll:-065.65
+Time:2256,AccPitch:-057.97, AccRoll:-067.01
+Time:2262,AccPitch:-055.71, AccRoll:-065.68
+Time:2268,AccPitch:-055.59, AccRoll:-065.12
+Time:2274,AccPitch:-056.19, AccRoll:-065.41
+Time:2281,AccPitch:-055.94, AccRoll:-065.59
+Time:2287,AccPitch:-056.17, AccRoll:-065.41
+Time:2293,AccPitch:-056.43, AccRoll:-065.32
+Time:2299,AccPitch:-056.36, AccRoll:-065.47
+Time:2305,AccPitch:-056.06, AccRoll:-066.06
+Time:2311,AccPitch:-056.81, AccRoll:-065.79
+Time:2317,AccPitch:-055.79, AccRoll:-065.65
+Time:2323,AccPitch:-054.24, AccRoll:-064.20
+Time:2329,AccPitch:-054.94, AccRoll:-065.14
+Time:2335,AccPitch:-055.13, AccRoll:-064.83
+Time:2341,AccPitch:-056.00, AccRoll:-064.58
+Time:2347,AccPitch:-056.04, AccRoll:-065.31
+Time:2353,AccPitch:-056.27, AccRoll:-065.38
+Time:2359,AccPitch:-055.71, AccRoll:-065.11
+Time:2366,AccPitch:-055.87, AccRoll:-065.35
+Time:2372,AccPitch:-056.42, AccRoll:-065.51
+Time:2378,AccPitch:-056.31, AccRoll:-065.88
+Time:2384,AccPitch:-055.93, AccRoll:-065.29
+Time:2390,AccPitch:-055.73, AccRoll:-065.71
+Time:2396,AccPitch:-056.43, AccRoll:-065.56
+Time:2402,AccPitch:-055.26, AccRoll:-065.28
+Time:2408,AccPitch:-055.67, AccRoll:-065.96
+Time:2414,AccPitch:-055.88, AccRoll:-065.90
+Time:2420,AccPitch:-055.70, AccRoll:-065.52
+Time:2426,AccPitch:-055.58, AccRoll:-065.20
+Time:2432,AccPitch:-055.23, AccRoll:-065.30
+Time:2438,AccPitch:-055.43, AccRoll:-065.67
+Time:2444,AccPitch:-055.65, AccRoll:-065.18
+Time:2450,AccPitch:-055.52, AccRoll:-065.37
+Time:2457,AccPitch:-055.99, AccRoll:-065.24
+Time:2463,AccPitch:-056.21, AccRoll:-065.93
+Time:2469,AccPitch:-055.82, AccRoll:-064.94
+Time:2475,AccPitch:-055.79, AccRoll:-065.83
+Time:2481,AccPitch:-054.70, AccRoll:-064.74
+Time:2487,AccPitch:-056.16, AccRoll:-065.97
+Time:2493,AccPitch:-055.92, AccRoll:-065.95
+Time:2499,AccPitch:-055.71, AccRoll:-065.48
+Time:2505,AccPitch:-055.58, AccRoll:-065.38
+Time:2511,AccPitch:-055.73, AccRoll:-065.13
+Time:2517,AccPitch:-056.29, AccRoll:-065.84
+Time:2523,AccPitch:-056.24, AccRoll:-065.81
+Time:2529,AccPitch:-056.26, AccRoll:-065.52
+Time:2535,AccPitch:-055.81, AccRoll:-064.84
+Time:2542,AccPitch:-056.11, AccRoll:-065.56
+Time:2548,AccPitch:-055.35, AccRoll:-065.20
+Time:2554,AccPitch:-055.40, AccRoll:-064.95
+Time:2560,AccPitch:-055.71, AccRoll:-064.62
+Time:2566,AccPitch:-055.58, AccRoll:-065.42
+Time:2572,AccPitch:-056.22, AccRoll:-065.18
+Time:2578,AccPitch:-056.10, AccRoll:-065.77
+Time:2584,AccPitch:-055.73, AccRoll:-065.24
+Time:2590,AccPitch:-056.87, AccRoll:-066.00
+Time:2596,AccPitch:-055.31, AccRoll:-065.15
+Time:2602,AccPitch:-056.86, AccRoll:-066.28
+Time:2608,AccPitch:-056.07, AccRoll:-065.47
+Time:2614,AccPitch:-055.54, AccRoll:-064.93
+Time:2620,AccPitch:-056.24, AccRoll:-065.51
+Time:2627,AccPitch:-056.17, AccRoll:-065.80
+Time:2633,AccPitch:-057.19, AccRoll:-066.28
+Time:2639,AccPitch:-056.22, AccRoll:-066.10
+Time:2645,AccPitch:-056.69, AccRoll:-066.28
+Time:2651,AccPitch:-056.05, AccRoll:-065.54
+Time:2657,AccPitch:-056.46, AccRoll:-065.44
+Time:2663,AccPitch:-055.88, AccRoll:-065.77
+Time:2669,AccPitch:-055.45, AccRoll:-064.90
+Time:2675,AccPitch:-055.46, AccRoll:-065.37
+Time:2681,AccPitch:-055.94, AccRoll:-065.79
+Time:2687,AccPitch:-056.74, AccRoll:-066.22
+Time:2693,AccPitch:-055.89, AccRoll:-065.45
+Time:2699,AccPitch:-056.61, AccRoll:-065.83
+Time:2705,AccPitch:-056.21, AccRoll:-065.43
+Time:2711,AccPitch:-056.12, AccRoll:-065.48
+Time:2718,AccPitch:-056.00, AccRoll:-065.54
+Time:2724,AccPitch:-056.48, AccRoll:-065.88
+Time:2730,AccPitch:-056.99, AccRoll:-066.41
+Time:2736,AccPitch:-055.80, AccRoll:-065.70
+Time:2742,AccPitch:-055.56, AccRoll:-064.76
+Time:2748,AccPitch:-055.68, AccRoll:-065.20
+Time:2754,AccPitch:-056.65, AccRoll:-065.91
+Time:2760,AccPitch:-056.44, AccRoll:-065.38
+Time:2766,AccPitch:-055.79, AccRoll:-065.76
+Time:2772,AccPitch:-054.94, AccRoll:-065.26
+Time:2778,AccPitch:-056.84, AccRoll:-065.88
+Time:2784,AccPitch:-056.36, AccRoll:-065.76
+Time:2790,AccPitch:-056.03, AccRoll:-065.71
+Time:2796,AccPitch:-057.42, AccRoll:-066.47
+Time:2803,AccPitch:-056.60, AccRoll:-065.60
+Time:2809,AccPitch:-045.00, AccRoll:-045.00
+Time:2815,AccPitch:-045.00, AccRoll:-045.00
+Time:2821,AccPitch:-128.65, AccRoll:-179.50
+Time:2827,AccPitch:-177.37, AccRoll:145.13
+Time:2833,AccPitch:-045.00, AccRoll:-045.00
+Time:2839,AccPitch:006.14, AccRoll:056.53
+Time:2845,AccPitch:010.79, AccRoll:-037.22
+Time:2851,AccPitch:048.18, AccRoll:-051.92
+Time:2857,AccPitch:-039.36, AccRoll:-045.00
+Time:2863,AccPitch:-018.53, AccRoll:-047.13
+Time:2869,AccPitch:-054.81, AccRoll:-069.08
+Time:2875,AccPitch:-038.16, AccRoll:-040.26
+Time:2881,AccPitch:-042.99, AccRoll:-033.45
+Time:2887,AccPitch:-036.52, AccRoll:-046.68
+Time:2893,AccPitch:-049.85, AccRoll:006.86
+Time:2899,AccPitch:-054.50, AccRoll:-002.70
+Time:2905,AccPitch:-059.82, AccRoll:-001.47
+Time:2911,AccPitch:-057.81, AccRoll:-049.64
+Time:2917,AccPitch:-052.30, AccRoll:-061.61
+Time:2923,AccPitch:-047.81, AccRoll:-066.89
+Time:2929,AccPitch:-052.03, AccRoll:-067.44
+Time:2936,AccPitch:-045.47, AccRoll:-057.74
+Time:2942,AccPitch:-056.37, AccRoll:-058.24
+Time:2948,AccPitch:-065.28, AccRoll:-066.37
+Time:2954,AccPitch:-057.97, AccRoll:-065.85
+Time:2960,AccPitch:-058.53, AccRoll:-068.11
+Time:2966,AccPitch:-053.67, AccRoll:-064.21
+Time:2972,AccPitch:-057.87, AccRoll:-065.25
+Time:2978,AccPitch:-055.59, AccRoll:-062.00
+Time:2984,AccPitch:-057.65, AccRoll:-062.98
+Time:2990,AccPitch:-056.96, AccRoll:-066.31
+Time:2996,AccPitch:-056.59, AccRoll:-068.41
+Time:3002,AccPitch:-056.22, AccRoll:-066.25
+Time:3008,AccPitch:-058.89, AccRoll:-068.84
+Time:3014,AccPitch:-055.35, AccRoll:-063.72
+Time:3021,AccPitch:-054.51, AccRoll:-064.72
+Time:3027,AccPitch:-047.85, AccRoll:-061.12
+Time:3033,AccPitch:-055.90, AccRoll:-068.34
+Time:3039,AccPitch:-060.14, AccRoll:-070.46
+Time:3045,AccPitch:-055.49, AccRoll:-064.96
+Time:3051,AccPitch:-054.79, AccRoll:-065.31
+Time:3057,AccPitch:-055.62, AccRoll:-067.14
+Time:3063,AccPitch:-056.44, AccRoll:-068.88
+Time:3069,AccPitch:-057.30, AccRoll:-067.46
+Time:3075,AccPitch:-056.61, AccRoll:-066.88
+Time:3081,AccPitch:-056.19, AccRoll:-066.39
+Time:3087,AccPitch:-054.85, AccRoll:-065.68
+Time:3093,AccPitch:-056.71, AccRoll:-066.48
+Time:3099,AccPitch:-056.41, AccRoll:-066.21
+Time:3106,AccPitch:-056.04, AccRoll:-066.71
+Time:3112,AccPitch:-057.63, AccRoll:-067.55
+Time:3118,AccPitch:-057.18, AccRoll:-067.12
+Time:3124,AccPitch:-055.99, AccRoll:-066.19
+Time:3130,AccPitch:-056.25, AccRoll:-066.16
+Time:3136,AccPitch:-057.16, AccRoll:-066.76
+Time:3142,AccPitch:-055.69, AccRoll:-065.56
+Time:3148,AccPitch:-056.75, AccRoll:-066.53
+Time:3154,AccPitch:-055.78, AccRoll:-065.35
+Time:3160,AccPitch:-056.48, AccRoll:-065.58
+Time:3166,AccPitch:-055.36, AccRoll:-065.47
+Time:3172,AccPitch:-055.46, AccRoll:-065.13
+Time:3178,AccPitch:-055.72, AccRoll:-065.16
+Time:3184,AccPitch:-056.56, AccRoll:-065.76
+Time:3191,AccPitch:-057.06, AccRoll:-066.39
+Time:3197,AccPitch:-056.73, AccRoll:-066.20
+Time:3203,AccPitch:-056.74, AccRoll:-066.08
+Time:3209,AccPitch:-056.02, AccRoll:-066.11
+Time:3215,AccPitch:-057.02, AccRoll:-066.54
+Time:3221,AccPitch:-056.35, AccRoll:-066.66
+Time:3227,AccPitch:-056.61, AccRoll:-066.03
+Time:3233,AccPitch:-056.05, AccRoll:-066.22
+Time:3239,AccPitch:-056.92, AccRoll:-066.58
+Time:3245,AccPitch:-055.51, AccRoll:-065.89
+Time:3251,AccPitch:-056.53, AccRoll:-066.19
+Time:3257,AccPitch:-057.01, AccRoll:-066.19
+Time:3263,AccPitch:-055.84, AccRoll:-066.33
+Time:3269,AccPitch:-056.35, AccRoll:-066.62
+Time:3276,AccPitch:-056.43, AccRoll:-066.27
+Time:3282,AccPitch:-056.83, AccRoll:-066.26
+Time:3288,AccPitch:-055.89, AccRoll:-066.14
+Time:3294,AccPitch:-056.10, AccRoll:-066.12
+Time:3300,AccPitch:-056.73, AccRoll:-066.44
+Time:3306,AccPitch:-056.27, AccRoll:-066.74
+Time:3312,AccPitch:-055.75, AccRoll:-065.62
+Time:3318,AccPitch:-056.31, AccRoll:-067.03
+Time:3324,AccPitch:-057.05, AccRoll:-066.46
+Time:3330,AccPitch:-055.97, AccRoll:-066.50
+Time:3336,AccPitch:-056.16, AccRoll:-066.65
+Time:3342,AccPitch:-056.95, AccRoll:-066.42
+Time:3348,AccPitch:-056.22, AccRoll:-066.31
+Time:3354,AccPitch:-057.14, AccRoll:-066.74
+Time:3361,AccPitch:-057.01, AccRoll:-066.23
+Time:3367,AccPitch:-056.44, AccRoll:-066.30
+Time:3373,AccPitch:-057.27, AccRoll:-066.66
+Time:3379,AccPitch:-055.72, AccRoll:-066.17
+Time:3385,AccPitch:-056.87, AccRoll:-066.25
+Time:3391,AccPitch:-057.13, AccRoll:-066.71
+Time:3397,AccPitch:-057.99, AccRoll:-067.16
+Time:3403,AccPitch:-055.70, AccRoll:-066.15
+Time:3409,AccPitch:-057.04, AccRoll:-066.50
+Time:3415,AccPitch:-056.20, AccRoll:-066.12
+Time:3421,AccPitch:-056.62, AccRoll:-066.28
+Time:3427,AccPitch:-056.40, AccRoll:-066.22
+Time:3433,AccPitch:-057.19, AccRoll:-066.90
+Time:3439,AccPitch:-057.51, AccRoll:-067.18
+Time:3445,AccPitch:-056.47, AccRoll:-065.94
+Time:3452,AccPitch:-056.78, AccRoll:-066.93
+Time:3458,AccPitch:-055.80, AccRoll:-065.45
+Time:3464,AccPitch:-056.00, AccRoll:-065.69
+Time:3470,AccPitch:-056.06, AccRoll:-065.88
+Time:3476,AccPitch:-056.66, AccRoll:-066.21
+Time:3482,AccPitch:-056.40, AccRoll:-066.43
+Time:3488,AccPitch:-055.65, AccRoll:-066.68
+Time:3494,AccPitch:-056.16, AccRoll:-066.20
+Time:3500,AccPitch:-056.33, AccRoll:-066.26
+Time:3506,AccPitch:-057.07, AccRoll:-067.07
+Time:3512,AccPitch:-057.05, AccRoll:-066.45
+Time:3518,AccPitch:-057.21, AccRoll:-066.83
+Time:3524,AccPitch:-056.62, AccRoll:-067.06
+Time:3530,AccPitch:-056.32, AccRoll:-066.30
+Time:3537,AccPitch:-057.46, AccRoll:-067.07
+Time:3543,AccPitch:-056.48, AccRoll:-066.46
+Time:3549,AccPitch:-057.43, AccRoll:-066.59
+Time:3555,AccPitch:-055.61, AccRoll:-066.09
+Time:3561,AccPitch:-056.55, AccRoll:-065.84
+Time:3567,AccPitch:-056.53, AccRoll:-066.04
+Time:3573,AccPitch:-055.61, AccRoll:-065.34
+Time:3579,AccPitch:-056.66, AccRoll:-066.41
+Time:3585,AccPitch:-056.76, AccRoll:-066.88
+Time:3591,AccPitch:-056.09, AccRoll:-066.81
+Time:3597,AccPitch:-056.60, AccRoll:-066.07
+Time:3603,AccPitch:-056.87, AccRoll:-066.54
+Time:3609,AccPitch:-056.24, AccRoll:-065.73
+Time:3615,AccPitch:-055.96, AccRoll:-065.99
+Time:3622,AccPitch:-056.83, AccRoll:-066.27
+Time:3628,AccPitch:-057.71, AccRoll:-067.06
+Time:3634,AccPitch:-057.34, AccRoll:-066.86
+Time:3640,AccPitch:-056.66, AccRoll:-066.01
+Time:3646,AccPitch:-055.99, AccRoll:-066.33
+Time:3652,AccPitch:057.98, AccRoll:-072.38
+Time:3658,AccPitch:-114.31, AccRoll:-115.88
+Time:3664,AccPitch:-045.00, AccRoll:-045.00
+Time:3670,AccPitch:-038.78, AccRoll:-045.00
+Time:3676,AccPitch:130.38, AccRoll:126.48
+Time:3682,AccPitch:-021.11, AccRoll:-039.08
+Time:3688,AccPitch:-092.67, AccRoll:-091.92
+Time:3694,AccPitch:015.52, AccRoll:-053.36
+Time:3700,AccPitch:-019.28, AccRoll:-038.57
+Time:3706,AccPitch:-037.58, AccRoll:-050.06
+Time:3712,AccPitch:152.73, AccRoll:179.45
+Time:3718,AccPitch:-058.06, AccRoll:-052.87
+Time:3724,AccPitch:-071.92, AccRoll:-047.53
+Time:3730,AccPitch:-074.07, AccRoll:-066.73
+Time:3736,AccPitch:-065.11, AccRoll:-068.71
+Time:3742,AccPitch:-064.62, AccRoll:-068.25
+Time:3748,AccPitch:-023.58, AccRoll:-035.05
+Time:3755,AccPitch:-059.62, AccRoll:-068.67
+Time:3761,AccPitch:-097.90, AccRoll:-095.50
+Time:3767,AccPitch:-052.49, AccRoll:-060.01
+Time:3773,AccPitch:-044.88, AccRoll:-058.72
+Time:3779,AccPitch:-028.30, AccRoll:-053.21
+Time:3785,AccPitch:-100.60, AccRoll:-096.40
+Time:3791,AccPitch:-163.16, AccRoll:-136.66
+Time:3797,AccPitch:-132.23, AccRoll:-109.80
+Time:3803,AccPitch:-097.47, AccRoll:-097.07
+Time:3809,AccPitch:-061.11, AccRoll:-071.07
+Time:3815,AccPitch:-039.97, AccRoll:-059.94
+Time:3821,AccPitch:-060.79, AccRoll:-066.03
+Time:3827,AccPitch:-058.90, AccRoll:-068.29
+Time:3833,AccPitch:-054.71, AccRoll:-068.06
+Time:3840,AccPitch:-053.69, AccRoll:-063.68
+Time:3846,AccPitch:-057.40, AccRoll:-066.20
+Time:3852,AccPitch:-059.26, AccRoll:-068.16
+Time:3858,AccPitch:-058.97, AccRoll:-068.26
+Time:3864,AccPitch:-056.88, AccRoll:-067.04
+Time:3870,AccPitch:-057.17, AccRoll:-067.31
+Time:3876,AccPitch:-056.64, AccRoll:-066.22
+Time:3882,AccPitch:-055.69, AccRoll:-064.63
+Time:3888,AccPitch:-056.60, AccRoll:-065.22
+Time:3894,AccPitch:-055.73, AccRoll:-065.74
+Time:3900,AccPitch:-056.72, AccRoll:-065.28
+Time:3906,AccPitch:-057.74, AccRoll:-065.91
+Time:3912,AccPitch:-057.77, AccRoll:-065.86
+Time:3918,AccPitch:-056.43, AccRoll:-065.11
+Time:3925,AccPitch:-057.24, AccRoll:-066.01
+Time:3931,AccPitch:-057.30, AccRoll:-066.85
+Time:3937,AccPitch:-057.46, AccRoll:-066.52
+Time:3943,AccPitch:-056.07, AccRoll:-065.67
+Time:3949,AccPitch:-057.86, AccRoll:-067.07
+Time:3955,AccPitch:-057.23, AccRoll:-066.45
+Time:3961,AccPitch:-056.48, AccRoll:-065.79
+Time:3967,AccPitch:-057.01, AccRoll:-066.15
+Time:3973,AccPitch:-056.37, AccRoll:-066.44
+Time:3979,AccPitch:-057.15, AccRoll:-066.63
+Time:3985,AccPitch:-056.91, AccRoll:-065.51
+Time:3991,AccPitch:-055.80, AccRoll:-065.32
+Time:3997,AccPitch:-057.84, AccRoll:-066.47
+Time:4003,AccPitch:-057.18, AccRoll:-066.84
+Time:4010,AccPitch:-056.30, AccRoll:-065.09
+Time:4016,AccPitch:-057.43, AccRoll:-067.15
+Time:4022,AccPitch:-056.88, AccRoll:-066.15
+Time:4028,AccPitch:-057.46, AccRoll:-066.83
+Time:4034,AccPitch:-056.78, AccRoll:-066.72
+Time:4040,AccPitch:-056.89, AccRoll:-066.52
+Time:4046,AccPitch:-056.60, AccRoll:-066.15
+Time:4052,AccPitch:-055.85, AccRoll:-065.72
+Time:4058,AccPitch:-058.05, AccRoll:-066.74
+Time:4064,AccPitch:-056.46, AccRoll:-065.77
+Time:4070,AccPitch:-057.06, AccRoll:-066.81
+Time:4076,AccPitch:-055.57, AccRoll:-065.90
+Time:4082,AccPitch:-057.35, AccRoll:-066.17
+Time:4088,AccPitch:-056.57, AccRoll:-066.68
+Time:4095,AccPitch:-057.06, AccRoll:-066.90
+Time:4101,AccPitch:-058.01, AccRoll:-067.01
+Time:4107,AccPitch:-056.75, AccRoll:-066.06
+Time:4113,AccPitch:-057.11, AccRoll:-066.21
+Time:4119,AccPitch:-056.44, AccRoll:-065.98
+Time:4125,AccPitch:-056.29, AccRoll:-066.23
+Time:4131,AccPitch:-056.99, AccRoll:-065.97
+Time:4137,AccPitch:-057.81, AccRoll:-067.07
+Time:4143,AccPitch:-057.19, AccRoll:-065.59
+Time:4149,AccPitch:-057.67, AccRoll:-066.49
+Time:4155,AccPitch:-056.73, AccRoll:-066.07
+Time:4161,AccPitch:-057.36, AccRoll:-066.42
+Time:4167,AccPitch:-056.13, AccRoll:-065.79
+Time:4173,AccPitch:-057.27, AccRoll:-066.49
+Time:4179,AccPitch:-056.01, AccRoll:-065.94
+Time:4186,AccPitch:-056.56, AccRoll:-065.41
+Time:4192,AccPitch:-056.25, AccRoll:-066.33
+Time:4198,AccPitch:-055.80, AccRoll:-066.08
+Time:4204,AccPitch:-057.65, AccRoll:-066.94
+Time:4210,AccPitch:-056.52, AccRoll:-066.13
+Time:4216,AccPitch:-055.94, AccRoll:-065.42
+Time:4222,AccPitch:-057.41, AccRoll:-066.84
+Time:4228,AccPitch:-056.13, AccRoll:-065.75
+Time:4234,AccPitch:-055.50, AccRoll:-065.72
+Time:4240,AccPitch:-056.50, AccRoll:-065.73
+Time:4246,AccPitch:-056.41, AccRoll:-065.41
+Time:4252,AccPitch:-057.09, AccRoll:-066.28
+Time:4258,AccPitch:-056.35, AccRoll:-065.86
+Time:4264,AccPitch:-056.74, AccRoll:-065.67
+Time:4271,AccPitch:-057.24, AccRoll:-066.83
+Time:4277,AccPitch:-057.05, AccRoll:-066.39
+Time:4283,AccPitch:-056.60, AccRoll:-066.23
+Time:4289,AccPitch:-055.90, AccRoll:-065.72
+Time:4295,AccPitch:-056.76, AccRoll:-066.09
+Time:4301,AccPitch:-056.22, AccRoll:-065.12
+Time:4307,AccPitch:-057.00, AccRoll:-066.28
+Time:4313,AccPitch:-056.48, AccRoll:-065.93
+Time:4319,AccPitch:-056.70, AccRoll:-065.75
+Time:4325,AccPitch:-055.72, AccRoll:-065.03
+Time:4331,AccPitch:-056.75, AccRoll:-066.63
+Time:4337,AccPitch:-057.25, AccRoll:-066.09
+Time:4343,AccPitch:-057.54, AccRoll:-066.61
+Time:4349,AccPitch:-056.80, AccRoll:-066.44
+Time:4356,AccPitch:-055.69, AccRoll:-065.48
+Time:4362,AccPitch:-055.38, AccRoll:-065.34
+Time:4368,AccPitch:-056.32, AccRoll:-066.05
+Time:4374,AccPitch:-056.08, AccRoll:-066.35
+Time:4380,AccPitch:-057.96, AccRoll:-066.63
+Time:4386,AccPitch:-056.20, AccRoll:-065.52
+Time:4392,AccPitch:-056.95, AccRoll:-065.95
+Time:4398,AccPitch:-055.97, AccRoll:-065.25
+Time:4404,AccPitch:-056.78, AccRoll:-065.67
+Time:4410,AccPitch:-057.62, AccRoll:-066.50
+Time:4416,AccPitch:-056.08, AccRoll:-065.64
+Time:4422,AccPitch:-056.67, AccRoll:-066.04
+Time:4428,AccPitch:-056.32, AccRoll:-065.82
+Time:4434,AccPitch:-057.01, AccRoll:-065.98
+Time:4441,AccPitch:-056.12, AccRoll:-065.70
+Time:4447,AccPitch:-056.19, AccRoll:-065.88
+Time:4453,AccPitch:-057.52, AccRoll:-066.17
+Time:4459,AccPitch:-056.97, AccRoll:-065.79
+Time:4465,AccPitch:-056.91, AccRoll:-066.29
+Time:4471,AccPitch:-056.74, AccRoll:-066.23
+Time:4477,AccPitch:-055.81, AccRoll:-065.69
+Time:4483,AccPitch:-056.32, AccRoll:-065.78
+Time:4489,AccPitch:-056.57, AccRoll:-065.88
+Time:4495,AccPitch:-056.29, AccRoll:-065.88
+Time:4501,AccPitch:-056.38, AccRoll:-065.81
+Time:4507,AccPitch:-056.24, AccRoll:-065.97
+Time:4513,AccPitch:-057.04, AccRoll:-066.42
+Time:4519,AccPitch:-056.57, AccRoll:-066.29
+Time:4526,AccPitch:-058.43, AccRoll:-067.52
+Time:4532,AccPitch:-056.67, AccRoll:-065.67
+Time:4538,AccPitch:-056.07, AccRoll:-066.29
+Time:4544,AccPitch:-135.00, AccRoll:164.08
+Time:4550,AccPitch:160.27, AccRoll:131.97
+Time:4556,AccPitch:-045.00, AccRoll:-045.00
+Time:4562,AccPitch:-147.51, AccRoll:108.20
+Time:4568,AccPitch:081.57, AccRoll:081.57
+Time:4574,AccPitch:164.12, AccRoll:157.30
+Time:4579,AccPitch:-011.99, AccRoll:-031.36
+Time:4586,AccPitch:-010.40, AccRoll:-036.83
+Time:4592,AccPitch:-018.18, AccRoll:-064.87
+Time:4598,AccPitch:120.52, AccRoll:-111.81
+Time:4604,AccPitch:-031.11, AccRoll:-043.91
+Time:4610,AccPitch:-032.71, AccRoll:-031.29
+Time:4616,AccPitch:-097.50, AccRoll:-094.16
+Time:4622,AccPitch:-042.41, AccRoll:-019.29
+Time:4628,AccPitch:-058.40, AccRoll:-030.12
+Time:4634,AccPitch:-051.81, AccRoll:-050.50
+Time:4640,AccPitch:-059.38, AccRoll:-061.33
+Time:4646,AccPitch:-038.84, AccRoll:-048.94
+Time:4652,AccPitch:-030.83, AccRoll:-050.83
+Time:4658,AccPitch:-050.89, AccRoll:-049.65
+Time:4664,AccPitch:-050.51, AccRoll:-052.08
+Time:4670,AccPitch:-033.52, AccRoll:-048.36
+Time:4676,AccPitch:-029.89, AccRoll:-036.65
+Time:4683,AccPitch:-049.88, AccRoll:-058.06
+Time:4689,AccPitch:-071.82, AccRoll:-080.14
+Time:4695,AccPitch:-048.27, AccRoll:-060.03
+Time:4701,AccPitch:-067.39, AccRoll:-078.55
+Time:4707,AccPitch:-065.43, AccRoll:-070.04
+Time:4713,AccPitch:-059.83, AccRoll:-055.80
+Time:4719,AccPitch:-055.45, AccRoll:-060.66
+Time:4725,AccPitch:-059.21, AccRoll:-072.41
+Time:4731,AccPitch:-059.14, AccRoll:-068.88
+Time:4737,AccPitch:-062.87, AccRoll:-073.44
+Time:4743,AccPitch:-042.05, AccRoll:-060.22
+Time:4749,AccPitch:-053.07, AccRoll:-068.76
+Time:4755,AccPitch:-057.34, AccRoll:-068.99
+Time:4761,AccPitch:-041.52, AccRoll:-037.63
+Time:4768,AccPitch:-062.66, AccRoll:-071.82
+Time:4774,AccPitch:-067.87, AccRoll:-076.49
+Time:4780,AccPitch:-070.60, AccRoll:-077.51
+Time:4786,AccPitch:-060.55, AccRoll:-068.06
+Time:4792,AccPitch:-057.73, AccRoll:-066.81
+Time:4798,AccPitch:-056.38, AccRoll:-066.10
+Time:4804,AccPitch:-058.21, AccRoll:-066.37
+Time:4810,AccPitch:-056.37, AccRoll:-065.52
+Time:4816,AccPitch:-057.33, AccRoll:-066.49
+Time:4822,AccPitch:-057.05, AccRoll:-066.15
+Time:4828,AccPitch:-056.01, AccRoll:-066.27
+Time:4834,AccPitch:-055.92, AccRoll:-066.28
+Time:4840,AccPitch:-056.57, AccRoll:-066.86
+Time:4846,AccPitch:-056.71, AccRoll:-066.88
+Time:4853,AccPitch:-058.36, AccRoll:-067.21
+Time:4859,AccPitch:-056.05, AccRoll:-065.79
+Time:4865,AccPitch:-057.30, AccRoll:-066.73
+Time:4871,AccPitch:-057.01, AccRoll:-066.90
+Time:4877,AccPitch:-056.64, AccRoll:-066.26
+Time:4883,AccPitch:-056.29, AccRoll:-065.40
+Time:4889,AccPitch:-056.62, AccRoll:-066.68
+Time:4895,AccPitch:-056.49, AccRoll:-066.40
+Time:4901,AccPitch:-056.41, AccRoll:-066.59
+Time:4907,AccPitch:-057.74, AccRoll:-067.67
+Time:4913,AccPitch:-056.47, AccRoll:-066.55
+Time:4919,AccPitch:-058.25, AccRoll:-067.88
+Time:4925,AccPitch:-057.17, AccRoll:-066.65
+Time:4931,AccPitch:-056.45, AccRoll:-066.23
+Time:4938,AccPitch:-055.37, AccRoll:-066.16
+Time:4944,AccPitch:-055.75, AccRoll:-066.80
+Time:4950,AccPitch:-056.84, AccRoll:-066.71
+Time:4956,AccPitch:-055.27, AccRoll:-066.06
+Time:4962,AccPitch:-056.47, AccRoll:-066.63
+Time:4968,AccPitch:-056.83, AccRoll:-066.44
+Time:4974,AccPitch:-057.03, AccRoll:-066.84
+Time:4980,AccPitch:-056.51, AccRoll:-066.93
+Time:4986,AccPitch:-056.98, AccRoll:-066.60
+Time:4992,AccPitch:-055.44, AccRoll:-065.74
+Time:4998,AccPitch:-056.61, AccRoll:-066.87
+Time:5004,AccPitch:-056.03, AccRoll:-066.40
+Time:5010,AccPitch:-055.99, AccRoll:-066.50
+Time:5016,AccPitch:-057.40, AccRoll:-067.14
+Time:5023,AccPitch:-056.04, AccRoll:-066.17
+Time:5029,AccPitch:-056.96, AccRoll:-067.07
+Time:5035,AccPitch:-056.53, AccRoll:-066.43
+Time:5041,AccPitch:-057.23, AccRoll:-066.61
+Time:5047,AccPitch:-055.92, AccRoll:-066.22
+Time:5053,AccPitch:-057.96, AccRoll:-067.29
+Time:5059,AccPitch:-056.69, AccRoll:-066.96
+Time:5065,AccPitch:-056.90, AccRoll:-066.58
+Time:5071,AccPitch:-057.04, AccRoll:-066.86
+Time:5077,AccPitch:-056.79, AccRoll:-066.67
+Time:5083,AccPitch:-056.80, AccRoll:-067.12
+Time:5089,AccPitch:-056.47, AccRoll:-066.70
+Time:5095,AccPitch:-055.65, AccRoll:-066.13
+Time:5101,AccPitch:-055.48, AccRoll:-066.01
+Time:5108,AccPitch:-057.35, AccRoll:-066.58
+Time:5114,AccPitch:-056.27, AccRoll:-066.03
+Time:5120,AccPitch:-056.72, AccRoll:-066.63
+Time:5126,AccPitch:-056.59, AccRoll:-066.53
+Time:5132,AccPitch:-056.82, AccRoll:-066.34
+Time:5138,AccPitch:-055.95, AccRoll:-066.31
+Time:5144,AccPitch:-056.88, AccRoll:-067.27
+Time:5150,AccPitch:-057.49, AccRoll:-067.12
+Time:5156,AccPitch:-056.13, AccRoll:-066.45
+Time:5162,AccPitch:-056.94, AccRoll:-066.63
+Time:5168,AccPitch:-057.79, AccRoll:-067.09
+Time:5174,AccPitch:-057.10, AccRoll:-066.81
+Time:5180,AccPitch:-057.12, AccRoll:-066.66
+Time:5186,AccPitch:-056.17, AccRoll:-065.94
+Time:5193,AccPitch:-056.22, AccRoll:-066.73
+Time:5199,AccPitch:-056.49, AccRoll:-065.90
+Time:5205,AccPitch:-055.41, AccRoll:-066.25
+Time:5211,AccPitch:-056.25, AccRoll:-066.00
+Time:5217,AccPitch:-056.74, AccRoll:-066.39
+Time:5223,AccPitch:-057.29, AccRoll:-067.11
+Time:5229,AccPitch:-057.87, AccRoll:-067.34
+Time:5235,AccPitch:-056.07, AccRoll:-066.33
+Time:5241,AccPitch:-055.79, AccRoll:-066.24
+Time:5247,AccPitch:-056.53, AccRoll:-066.63
+Time:5253,AccPitch:-057.75, AccRoll:-067.39
+Time:5259,AccPitch:-057.42, AccRoll:-067.46
+Time:5265,AccPitch:-056.13, AccRoll:-065.74
+Time:5271,AccPitch:-058.23, AccRoll:-067.49
+Time:5277,AccPitch:-055.16, AccRoll:-065.57
+Time:5284,AccPitch:-055.93, AccRoll:-066.52
+Time:5290,AccPitch:-057.30, AccRoll:-066.89
+Time:5296,AccPitch:-056.30, AccRoll:-066.22
+Time:5302,AccPitch:-056.58, AccRoll:-066.80
+Time:5308,AccPitch:-056.27, AccRoll:-066.65
+Time:5314,AccPitch:-055.57, AccRoll:-066.28
+Time:5320,AccPitch:-057.42, AccRoll:-067.17
+Time:5326,AccPitch:-056.59, AccRoll:-066.44
+Time:5332,AccPitch:-057.43, AccRoll:-067.28
+Time:5338,AccPitch:-056.09, AccRoll:-066.05
+Time:5344,AccPitch:-057.27, AccRoll:-067.18
+Time:5350,AccPitch:-056.85, AccRoll:-066.75
+Time:5356,AccPitch:-056.51, AccRoll:-066.59
+Time:5362,AccPitch:-056.61, AccRoll:-066.76
+Time:5369,AccPitch:-056.24, AccRoll:-066.16
+Time:5375,AccPitch:-056.21, AccRoll:-066.31
+Time:5381,AccPitch:-057.34, AccRoll:-066.57
+Time:5387,AccPitch:-055.39, AccRoll:-065.94
+Time:5393,AccPitch:-056.52, AccRoll:-066.63
+Time:5399,AccPitch:-057.42, AccRoll:-067.03
+Time:5405,AccPitch:-055.74, AccRoll:-066.27
+Time:5411,AccPitch:-056.80, AccRoll:-066.35
+Time:5417,AccPitch:-055.92, AccRoll:-066.79
+Time:5423,AccPitch:-056.22, AccRoll:-066.60
+Time:5429,AccPitch:-055.88, AccRoll:-066.33
+Time:5435,AccPitch:-057.54, AccRoll:-066.84
+Time:5441,AccPitch:-055.91, AccRoll:-065.75
+Time:5447,AccPitch:-057.16, AccRoll:-066.62
+Time:5454,AccPitch:-057.47, AccRoll:-066.87
+Time:5460,AccPitch:-056.73, AccRoll:-066.16
+Time:5466,AccPitch:-056.99, AccRoll:-067.12
+Time:5472,AccPitch:-056.53, AccRoll:-066.44
+Time:5478,AccPitch:-056.89, AccRoll:-066.98
+Time:5484,AccPitch:-056.59, AccRoll:-066.35
+Time:5490,AccPitch:-056.72, AccRoll:-066.32
+Time:5496,AccPitch:-056.69, AccRoll:-066.37
+Time:5502,AccPitch:-056.02, AccRoll:-066.08
+Time:5508,AccPitch:-055.96, AccRoll:-066.16
+Time:5514,AccPitch:-056.54, AccRoll:-066.53
+Time:5520,AccPitch:-057.20, AccRoll:-066.69
+Time:5526,AccPitch:-056.61, AccRoll:-066.53
+Time:5532,AccPitch:-056.39, AccRoll:-066.51
+Time:5539,AccPitch:-057.24, AccRoll:-066.35
+Time:5545,AccPitch:-056.21, AccRoll:-066.71
+Time:5551,AccPitch:-056.61, AccRoll:-066.16
+Time:5557,AccPitch:-056.12, AccRoll:-066.12
+Time:5563,AccPitch:-056.14, AccRoll:-066.16
+Time:5569,AccPitch:-057.08, AccRoll:-066.74
+Time:5575,AccPitch:003.12, AccRoll:-010.77
+Time:5581,AccPitch:136.93, AccRoll:-164.57
+Time:5587,AccPitch:-060.31, AccRoll:-038.87
+Time:5593,AccPitch:-037.78, AccRoll:-032.69
+Time:5599,AccPitch:037.90, AccRoll:043.70
+Time:5605,AccPitch:-096.83, AccRoll:095.15
+Time:5611,AccPitch:-077.67, AccRoll:056.15
+Time:5617,AccPitch:-167.02, AccRoll:171.72
+Time:5623,AccPitch:-165.27, AccRoll:118.77
+Time:5629,AccPitch:-099.90, AccRoll:-099.90
+Time:5635,AccPitch:-124.07, AccRoll:108.95
+Time:5641,AccPitch:-067.52, AccRoll:-072.89
+Time:5647,AccPitch:-116.63, AccRoll:-105.14
+Time:5653,AccPitch:-065.56, AccRoll:-072.26
+Time:5659,AccPitch:-120.15, AccRoll:107.04
+Time:5665,AccPitch:-056.11, AccRoll:-078.59
+Time:5671,AccPitch:-116.67, AccRoll:-098.98
+Time:5677,AccPitch:-009.81, AccRoll:-057.67
+Time:5683,AccPitch:134.19, AccRoll:-101.37
+Time:5689,AccPitch:-055.51, AccRoll:-087.98
+Time:5695,AccPitch:-057.84, AccRoll:-063.55
+Time:5701,AccPitch:-058.20, AccRoll:-058.64
+Time:5708,AccPitch:-049.14, AccRoll:-054.59
+Time:5714,AccPitch:-055.34, AccRoll:-067.70
+Time:5720,AccPitch:-063.32, AccRoll:-074.48
+Time:5726,AccPitch:-061.70, AccRoll:-072.57
+Time:5732,AccPitch:-060.77, AccRoll:-067.55
+Time:5738,AccPitch:-058.41, AccRoll:-065.44
+Time:5744,AccPitch:-057.08, AccRoll:-065.62
+Time:5750,AccPitch:-045.31, AccRoll:-062.89
+Time:5756,AccPitch:-056.28, AccRoll:-066.90
+Time:5762,AccPitch:-037.54, AccRoll:-059.45
+Time:5768,AccPitch:-053.18, AccRoll:-060.95
+Time:5774,AccPitch:-043.65, AccRoll:-064.05
+Time:5780,AccPitch:-058.30, AccRoll:-069.87
+Time:5786,AccPitch:-056.21, AccRoll:-065.21
+Time:5793,AccPitch:-059.69, AccRoll:-069.22
+Time:5799,AccPitch:-060.05, AccRoll:-069.38
+Time:5805,AccPitch:-059.45, AccRoll:-068.73
+Time:5811,AccPitch:-055.16, AccRoll:-065.38
+Time:5817,AccPitch:-059.42, AccRoll:-068.04
+Time:5823,AccPitch:-057.65, AccRoll:-065.39
+Time:5829,AccPitch:-057.42, AccRoll:-066.33
+Time:5835,AccPitch:-057.66, AccRoll:-066.87
+Time:5841,AccPitch:-057.27, AccRoll:-066.50
+Time:5847,AccPitch:-057.69, AccRoll:-066.61
+Time:5853,AccPitch:-057.87, AccRoll:-067.21
+Time:5859,AccPitch:-057.93, AccRoll:-067.28
+Time:5865,AccPitch:-055.91, AccRoll:-066.16
+Time:5871,AccPitch:-056.63, AccRoll:-066.59
+Time:5877,AccPitch:-057.79, AccRoll:-067.13
+Time:5884,AccPitch:-057.22, AccRoll:-066.56
+Time:5890,AccPitch:-056.96, AccRoll:-066.93
+Time:5896,AccPitch:-058.04, AccRoll:-067.81
+Time:5902,AccPitch:-057.29, AccRoll:-066.99
+Time:5908,AccPitch:-056.39, AccRoll:-066.07
+Time:5914,AccPitch:-058.48, AccRoll:-068.23
+Time:5920,AccPitch:-057.23, AccRoll:-066.55
+Time:5926,AccPitch:-057.40, AccRoll:-067.28
+Time:5932,AccPitch:-058.81, AccRoll:-068.72
+Time:5938,AccPitch:-053.79, AccRoll:-065.41
+Time:5944,AccPitch:-058.51, AccRoll:-067.55
+Time:5950,AccPitch:-058.08, AccRoll:-068.01
+Time:5956,AccPitch:-057.19, AccRoll:-066.80
+Time:5962,AccPitch:-058.34, AccRoll:-067.43
+Time:5969,AccPitch:-057.45, AccRoll:-067.54
+Time:5975,AccPitch:-057.23, AccRoll:-066.67
+Time:5981,AccPitch:-058.19, AccRoll:-067.35
+Time:5987,AccPitch:-057.03, AccRoll:-067.14
+Time:5993,AccPitch:-058.56, AccRoll:-067.42
+Time:5999,AccPitch:-056.86, AccRoll:-066.04
+Time:6005,AccPitch:-057.11, AccRoll:-066.75
+Time:6011,AccPitch:-057.43, AccRoll:-067.32
+Time:6017,AccPitch:-057.88, AccRoll:-067.14
+Time:6023,AccPitch:-057.80, AccRoll:-067.16
+Time:6029,AccPitch:-057.32, AccRoll:-066.74
+Time:6035,AccPitch:-057.30, AccRoll:-067.08
+Time:6041,AccPitch:-057.97, AccRoll:-067.22
+Time:6047,AccPitch:-056.79, AccRoll:-066.70
+Time:6054,AccPitch:-057.48, AccRoll:-067.13
+Time:6060,AccPitch:-058.13, AccRoll:-066.87
+Time:6066,AccPitch:-057.05, AccRoll:-067.06
+Time:6072,AccPitch:-057.93, AccRoll:-066.89
+Time:6078,AccPitch:-058.14, AccRoll:-068.23
+Time:6084,AccPitch:-056.46, AccRoll:-066.47
+Time:6090,AccPitch:-057.02, AccRoll:-067.06
+Time:6096,AccPitch:-056.86, AccRoll:-066.41
+Time:6102,AccPitch:-057.62, AccRoll:-067.41
+Time:6108,AccPitch:-057.04, AccRoll:-066.76
+Time:6114,AccPitch:-056.19, AccRoll:-066.76
+Time:6120,AccPitch:-056.99, AccRoll:-066.53
+Time:6126,AccPitch:-057.23, AccRoll:-067.37
+Time:6132,AccPitch:-057.99, AccRoll:-066.97
+Time:6139,AccPitch:-059.01, AccRoll:-067.87
+Time:6145,AccPitch:-057.60, AccRoll:-067.23
+Time:6151,AccPitch:-057.54, AccRoll:-067.40
+Time:6157,AccPitch:-057.67, AccRoll:-067.10
+Time:6163,AccPitch:-057.85, AccRoll:-067.15
+Time:6169,AccPitch:-058.67, AccRoll:-067.93
+Time:6175,AccPitch:-057.22, AccRoll:-067.20
+Time:6181,AccPitch:-056.08, AccRoll:-066.45
+Time:6187,AccPitch:-056.01, AccRoll:-066.32
+Time:6193,AccPitch:-057.17, AccRoll:-066.89
+Time:6199,AccPitch:-057.63, AccRoll:-067.58
+Time:6205,AccPitch:-058.11, AccRoll:-067.76
+Time:6211,AccPitch:-058.10, AccRoll:-067.19
+Time:6217,AccPitch:-058.30, AccRoll:-067.33
+Time:6224,AccPitch:-058.00, AccRoll:-066.97
+Time:6230,AccPitch:-056.97, AccRoll:-066.79
+Time:6236,AccPitch:-056.53, AccRoll:-066.72
+Time:6242,AccPitch:-058.09, AccRoll:-067.40
+Time:6248,AccPitch:-057.39, AccRoll:-067.33
+Time:6254,AccPitch:-057.40, AccRoll:-067.01
+Time:6260,AccPitch:-057.42, AccRoll:-067.15
+Time:6266,AccPitch:-056.77, AccRoll:-067.15
+Time:6272,AccPitch:-056.43, AccRoll:-066.35
+Time:6278,AccPitch:-057.28, AccRoll:-067.37
+Time:6284,AccPitch:-057.59, AccRoll:-067.28
+Time:6290,AccPitch:-056.95, AccRoll:-066.93
+Time:6296,AccPitch:-057.52, AccRoll:-066.93
+Time:6302,AccPitch:-056.31, AccRoll:-066.02
+Time:6309,AccPitch:-057.33, AccRoll:-066.82
+Time:6315,AccPitch:-058.62, AccRoll:-067.68
+Time:6321,AccPitch:-057.52, AccRoll:-067.56
+Time:6327,AccPitch:-057.02, AccRoll:-066.80
+Time:6333,AccPitch:-057.12, AccRoll:-067.38
+Time:6339,AccPitch:-057.49, AccRoll:-067.30
+Time:6345,AccPitch:-058.05, AccRoll:-067.68
+Time:6351,AccPitch:-056.90, AccRoll:-066.58
+Time:6357,AccPitch:-057.34, AccRoll:-066.66
+Time:6363,AccPitch:-057.28, AccRoll:-066.49
+Time:6369,AccPitch:-056.77, AccRoll:-066.78
+Time:6375,AccPitch:-056.60, AccRoll:-066.73
+Time:6381,AccPitch:-057.46, AccRoll:-067.01
+Time:6387,AccPitch:-056.66, AccRoll:-066.47
+Time:6393,AccPitch:-057.43, AccRoll:-067.44
+Time:6400,AccPitch:-057.48, AccRoll:-067.26
+Time:6406,AccPitch:-056.85, AccRoll:-066.23
+Time:6412,AccPitch:-057.77, AccRoll:-067.08
+Time:6418,AccPitch:-056.68, AccRoll:-067.06
+Time:6424,AccPitch:-057.17, AccRoll:-067.33
+Time:6430,AccPitch:-058.22, AccRoll:-067.67
+Time:6436,AccPitch:-057.53, AccRoll:-067.08
+Time:6442,AccPitch:-058.06, AccRoll:-067.91
+Time:6448,AccPitch:-057.77, AccRoll:-067.21
+Time:6454,AccPitch:-058.17, AccRoll:-067.86
+Time:6460,AccPitch:-057.81, AccRoll:-067.47
+Time:6466,AccPitch:-057.23, AccRoll:-066.83
+Time:6472,AccPitch:-057.24, AccRoll:-067.24
+Time:6478,AccPitch:-057.35, AccRoll:-066.77
+Time:6485,AccPitch:-058.26, AccRoll:-067.56
+Time:6491,AccPitch:-057.23, AccRoll:-066.92
+Time:6497,AccPitch:-057.39, AccRoll:-066.78
+Time:6503,AccPitch:-056.40, AccRoll:-066.78
+Time:6509,AccPitch:-057.23, AccRoll:-067.46
+Time:6515,AccPitch:-057.16, AccRoll:-066.95
+Time:6521,AccPitch:-057.31, AccRoll:-067.00
+Time:6527,AccPitch:-057.69, AccRoll:-067.71
+Time:6533,AccPitch:-057.31, AccRoll:-067.32
+Time:6539,AccPitch:-056.54, AccRoll:-066.43
+Time:6545,AccPitch:-057.98, AccRoll:-067.27
+Time:6551,AccPitch:-056.72, AccRoll:-066.74
+Time:6557,AccPitch:-058.14, AccRoll:-067.35
+Time:6563,AccPitch:-056.72, AccRoll:-067.11
+Time:6570,AccPitch:-057.95, AccRoll:-067.74
+Time:6576,AccPitch:-057.90, AccRoll:-067.28
+Time:6582,AccPitch:-056.82, AccRoll:-066.39
+Time:6588,AccPitch:-057.25, AccRoll:-067.67
+Time:6594,AccPitch:-057.65, AccRoll:-067.21
+Time:6600,AccPitch:-056.90, AccRoll:-066.22
+Time:6606,AccPitch:-057.18, AccRoll:-066.60
+Time:6612,AccPitch:-057.24, AccRoll:-067.19
+Time:6618,AccPitch:-057.48, AccRoll:-067.12
+Time:6624,AccPitch:-057.85, AccRoll:-067.14
+Time:6630,AccPitch:-057.07, AccRoll:-066.59
+Time:6636,AccPitch:-057.62, AccRoll:-067.31
+Time:6642,AccPitch:-057.56, AccRoll:-067.04
+Time:6648,AccPitch:-057.05, AccRoll:-067.04
+Time:6655,AccPitch:-057.84, AccRoll:-067.61
+Time:6661,AccPitch:-057.43, AccRoll:-067.17
+Time:6667,AccPitch:-057.90, AccRoll:-068.21
+Time:6673,AccPitch:-057.89, AccRoll:-067.63
+Time:6679,AccPitch:-057.57, AccRoll:-067.62
+Time:6685,AccPitch:-057.49, AccRoll:-067.17
+Time:6691,AccPitch:-056.73, AccRoll:-066.61
+Time:6697,AccPitch:-057.30, AccRoll:-067.10
+Time:6703,AccPitch:-058.19, AccRoll:-067.94
+Time:6709,AccPitch:-056.56, AccRoll:-066.39
+Time:6715,AccPitch:-056.24, AccRoll:-066.12
+Time:6721,AccPitch:-057.06, AccRoll:-066.60
+Time:6727,AccPitch:-057.25, AccRoll:-067.34
+Time:6733,AccPitch:-057.34, AccRoll:-067.27
+Time:6739,AccPitch:-056.94, AccRoll:-066.91
+Time:6746,AccPitch:-056.77, AccRoll:-066.90
+Time:6752,AccPitch:-056.32, AccRoll:-066.31
+Time:6758,AccPitch:-057.92, AccRoll:-067.49
+Time:6764,AccPitch:-057.68, AccRoll:-067.19
+Time:6770,AccPitch:-057.88, AccRoll:-067.14
+Time:6776,AccPitch:-057.17, AccRoll:-066.86
+Time:6782,AccPitch:-056.54, AccRoll:-066.31
+Time:6788,AccPitch:-056.75, AccRoll:-066.85
+Time:6794,AccPitch:-058.79, AccRoll:-068.31
+Time:6800,AccPitch:-057.85, AccRoll:-067.47
+Time:6806,AccPitch:-058.31, AccRoll:-067.43
+Time:6812,AccPitch:-057.25, AccRoll:-066.95
+Time:6818,AccPitch:-057.17, AccRoll:-067.24
+Time:6824,AccPitch:-057.89, AccRoll:-067.73
+Time:6831,AccPitch:-056.67, AccRoll:-066.78
+Time:6837,AccPitch:-056.90, AccRoll:-067.06
+Time:6843,AccPitch:-057.47, AccRoll:-067.31
+Time:6849,AccPitch:-058.54, AccRoll:-067.54
+Time:6855,AccPitch:-056.82, AccRoll:-067.06
+Time:6861,AccPitch:-057.45, AccRoll:-066.95
+Time:6867,AccPitch:-057.03, AccRoll:-067.38
+Time:6873,AccPitch:-057.60, AccRoll:-067.47
+Time:6879,AccPitch:-058.06, AccRoll:-067.55
+Time:6885,AccPitch:-058.69, AccRoll:-067.67
+Time:6891,AccPitch:-058.89, AccRoll:-068.36
+Time:6897,AccPitch:-058.77, AccRoll:-067.96
+Time:6903,AccPitch:-057.85, AccRoll:-067.03
+Time:6909,AccPitch:-057.69, AccRoll:-067.51
+Time:6916,AccPitch:-058.13, AccRoll:-067.71
+Time:6922,AccPitch:-056.43, AccRoll:-066.61
+Time:6928,AccPitch:-057.60, AccRoll:-067.24
+Time:6934,AccPitch:-058.00, AccRoll:-066.60
+Time:6940,AccPitch:-056.58, AccRoll:-066.66
+Time:6946,AccPitch:-057.50, AccRoll:-066.96
+Time:6952,AccPitch:-057.52, AccRoll:-067.47
+Time:6958,AccPitch:-056.12, AccRoll:-067.01
+Time:6964,AccPitch:-057.24, AccRoll:-067.49
+Time:6970,AccPitch:-058.13, AccRoll:-067.92
+Time:6976,AccPitch:-056.74, AccRoll:-066.41
+Time:6982,AccPitch:-056.89, AccRoll:-066.91
+Time:6988,AccPitch:-057.12, AccRoll:-067.09
+Time:6994,AccPitch:-057.26, AccRoll:-067.90
+Time:7001,AccPitch:-057.46, AccRoll:-067.39
+Time:7007,AccPitch:-058.35, AccRoll:-067.41
+Time:7013,AccPitch:-056.97, AccRoll:-066.90
+Time:7019,AccPitch:-057.17, AccRoll:-067.24
+Time:7025,AccPitch:-056.09, AccRoll:-067.04
+Time:7031,AccPitch:-057.17, AccRoll:-066.93
+Time:7037,AccPitch:-056.84, AccRoll:-066.69
+Time:7043,AccPitch:-057.02, AccRoll:-066.67
+Time:7049,AccPitch:-056.09, AccRoll:-066.74
+Time:7055,AccPitch:-056.42, AccRoll:-066.56
+Time:7061,AccPitch:-056.21, AccRoll:-066.47
+Time:7067,AccPitch:-057.23, AccRoll:-066.90
+Time:7073,AccPitch:-056.37, AccRoll:-066.41
+Time:7079,AccPitch:-056.69, AccRoll:-066.97
+Time:7086,AccPitch:-057.10, AccRoll:-066.62
+Time:7092,AccPitch:-057.11, AccRoll:-066.82
+Time:7098,AccPitch:-057.00, AccRoll:-066.99
+Time:7104,AccPitch:-057.10, AccRoll:-067.75
+Time:7110,AccPitch:-057.21, AccRoll:-067.87
+Time:7116,AccPitch:-057.32, AccRoll:-067.01
+Time:7122,AccPitch:-057.44, AccRoll:-066.82
+Time:7128,AccPitch:-056.78, AccRoll:-066.52
+Time:7134,AccPitch:-057.24, AccRoll:-067.04
+Time:7140,AccPitch:-056.90, AccRoll:-066.33
+Time:7146,AccPitch:-057.83, AccRoll:-067.53
+Time:7152,AccPitch:-057.06, AccRoll:-066.77
+Time:7158,AccPitch:-056.84, AccRoll:-067.05
+Time:7164,AccPitch:-058.03, AccRoll:-068.30
+Time:7171,AccPitch:-057.16, AccRoll:-067.12
+Time:7177,AccPitch:-057.87, AccRoll:-067.29
+Time:7183,AccPitch:-057.47, AccRoll:-067.48
+Time:7189,AccPitch:-056.81, AccRoll:-066.77
+Time:7195,AccPitch:-056.73, AccRoll:-066.90
+Time:7201,AccPitch:-057.90, AccRoll:-067.42
+Time:7207,AccPitch:-057.32, AccRoll:-067.02
+Time:7213,AccPitch:-057.61, AccRoll:-067.10
+Time:7219,AccPitch:-057.26, AccRoll:-067.28
+Time:7225,AccPitch:-056.89, AccRoll:-066.75
+Time:7231,AccPitch:-057.61, AccRoll:-066.53
+Time:7237,AccPitch:-057.08, AccRoll:-067.30
+Time:7243,AccPitch:-056.35, AccRoll:-066.44
+Time:7249,AccPitch:-056.64, AccRoll:-066.54
+Time:7256,AccPitch:-057.83, AccRoll:-067.32
+Time:7262,AccPitch:-057.98, AccRoll:-067.46
+Time:7268,AccPitch:-057.08, AccRoll:-066.80
+Time:7274,AccPitch:-056.47, AccRoll:-066.91
+Time:7280,AccPitch:-058.05, AccRoll:-067.59
+Time:7286,AccPitch:-057.82, AccRoll:-066.95
+Time:7292,AccPitch:-056.97, AccRoll:-067.25
+Time:7298,AccPitch:-057.42, AccRoll:-066.87
+Time:7304,AccPitch:-057.10, AccRoll:-067.15
+Time:7310,AccPitch:-057.72, AccRoll:-067.23
+Time:7316,AccPitch:-058.03, AccRoll:-068.17
+Time:7322,AccPitch:-057.43, AccRoll:-067.18
+Time:7328,AccPitch:-057.99, AccRoll:-067.33
+Time:7334,AccPitch:-056.71, AccRoll:-067.11
+Time:7341,AccPitch:-056.72, AccRoll:-066.42
+Time:7347,AccPitch:-056.75, AccRoll:-066.98
+Time:7353,AccPitch:-058.38, AccRoll:-067.20
+Time:7359,AccPitch:-057.81, AccRoll:-067.24
+Time:7365,AccPitch:-058.06, AccRoll:-067.53
+Time:7371,AccPitch:-056.86, AccRoll:-066.71
+Time:7377,AccPitch:-057.74, AccRoll:-067.33
+Time:7383,AccPitch:-057.97, AccRoll:-067.17
+Time:7389,AccPitch:-057.04, AccRoll:-066.76
+Time:7395,AccPitch:-057.29, AccRoll:-067.27
+Time:7401,AccPitch:-056.81, AccRoll:-067.01
+Time:7407,AccPitch:-057.80, AccRoll:-067.19
+Time:7413,AccPitch:-057.43, AccRoll:-067.22
+Time:7419,AccPitch:-057.93, AccRoll:-067.29
+Time:7425,AccPitch:-058.52, AccRoll:-067.26
+Time:7432,AccPitch:-056.08, AccRoll:-066.74
+Time:7438,AccPitch:-058.25, AccRoll:-067.23
+Time:7444,AccPitch:-057.03, AccRoll:-066.61
+Time:7450,AccPitch:-057.31, AccRoll:-067.25
+Time:7456,AccPitch:-057.64, AccRoll:-067.19
+Time:7462,AccPitch:-057.63, AccRoll:-067.50
+Time:7468,AccPitch:-056.79, AccRoll:-066.79
+Time:7474,AccPitch:-056.81, AccRoll:-066.70
+Time:7480,AccPitch:-057.36, AccRoll:-066.87
+Time:7486,AccPitch:-057.15, AccRoll:-066.88
+Time:7492,AccPitch:-056.77, AccRoll:-066.39
+Time:7498,AccPitch:-057.17, AccRoll:-066.49
+Time:7504,AccPitch:-056.17, AccRoll:-066.98
+Time:7510,AccPitch:-057.29, AccRoll:-066.87
+Time:7517,AccPitch:-057.58, AccRoll:-067.44
+Time:7523,AccPitch:-057.95, AccRoll:-067.64
+Time:7529,AccPitch:-058.40, AccRoll:-067.90
+Time:7535,AccPitch:-059.10, AccRoll:-067.50
+Time:7541,AccPitch:-057.47, AccRoll:-067.37
+Time:7547,AccPitch:-057.93, AccRoll:-067.19
+Time:7553,AccPitch:-057.11, AccRoll:-066.83
+Time:7559,AccPitch:-057.92, AccRoll:-067.26
+Time:7565,AccPitch:-057.71, AccRoll:-067.44
+Time:7571,AccPitch:-057.34, AccRoll:-067.02
+Time:7577,AccPitch:-057.77, AccRoll:-067.35
+Time:7583,AccPitch:-056.36, AccRoll:-066.71
+Time:7589,AccPitch:-057.69, AccRoll:-067.19
+Time:7595,AccPitch:-056.91, AccRoll:-066.68
+Time:7602,AccPitch:-057.78, AccRoll:-067.39
+Time:7608,AccPitch:-057.52, AccRoll:-067.49
+Time:7614,AccPitch:-057.41, AccRoll:-067.12
+Time:7620,AccPitch:-057.27, AccRoll:-067.26
+Time:7626,AccPitch:-057.11, AccRoll:-067.23
+Time:7632,AccPitch:-057.65, AccRoll:-067.30
+Time:7638,AccPitch:-057.40, AccRoll:-067.19
+Time:7644,AccPitch:-056.76, AccRoll:-066.68
+Time:7650,AccPitch:-057.78, AccRoll:-067.12
+Time:7656,AccPitch:-057.64, AccRoll:-067.39
+Time:7662,AccPitch:-057.94, AccRoll:-067.06
+Time:7668,AccPitch:-057.97, AccRoll:-067.14
+Time:7674,AccPitch:-056.33, AccRoll:-066.47
+Time:7680,AccPitch:-055.98, AccRoll:-066.05
+Time:7687,AccPitch:-056.89, AccRoll:-066.97
+Time:7693,AccPitch:-057.32, AccRoll:-067.24
+Time:7699,AccPitch:-056.15, AccRoll:-066.28
+Time:7705,AccPitch:-056.57, AccRoll:-066.52
+Time:7711,AccPitch:-056.99, AccRoll:-066.34
+Time:7717,AccPitch:-056.72, AccRoll:-066.78
+Time:7723,AccPitch:-057.60, AccRoll:-067.41
+Time:7729,AccPitch:-057.55, AccRoll:-067.32
+Time:7735,AccPitch:-057.61, AccRoll:-067.34
+Time:7741,AccPitch:-057.55, AccRoll:-066.96
+Time:7747,AccPitch:-057.90, AccRoll:-067.34
+Time:7753,AccPitch:-057.30, AccRoll:-066.79
+Time:7759,AccPitch:-057.33, AccRoll:-066.81
+Time:7765,AccPitch:-057.45, AccRoll:-066.71
+Time:7771,AccPitch:-057.11, AccRoll:-067.03
+Time:7778,AccPitch:-057.78, AccRoll:-067.31
+Time:7784,AccPitch:-057.26, AccRoll:-067.19
+Time:7790,AccPitch:-057.30, AccRoll:-066.93
+Time:7796,AccPitch:-056.41, AccRoll:-066.26
+Time:7802,AccPitch:-057.48, AccRoll:-067.39
+Time:7808,AccPitch:-057.81, AccRoll:-067.33
+Time:7814,AccPitch:-058.08, AccRoll:-068.04
+Time:7820,AccPitch:-058.11, AccRoll:-067.42
+Time:7826,AccPitch:-057.42, AccRoll:-067.47
+Time:7832,AccPitch:-057.62, AccRoll:-067.24
+Time:7838,AccPitch:-056.26, AccRoll:-066.43
+Time:7844,AccPitch:-057.78, AccRoll:-067.50
+Time:7850,AccPitch:-057.54, AccRoll:-066.98
+Time:7856,AccPitch:-056.55, AccRoll:-067.58
+Time:7863,AccPitch:-057.71, AccRoll:-066.86
+Time:7869,AccPitch:-057.63, AccRoll:-067.15
+Time:7875,AccPitch:-057.23, AccRoll:-067.45
+Time:7881,AccPitch:-057.32, AccRoll:-066.78
+Time:7887,AccPitch:-055.86, AccRoll:-066.09
+Time:7893,AccPitch:-057.14, AccRoll:-066.97
+Time:7899,AccPitch:-058.07, AccRoll:-067.54
+Time:7905,AccPitch:-057.46, AccRoll:-067.21
+Time:7911,AccPitch:-057.86, AccRoll:-067.77
+Time:7917,AccPitch:-057.57, AccRoll:-067.42
+Time:7923,AccPitch:-056.88, AccRoll:-067.44
+Time:7929,AccPitch:-057.08, AccRoll:-066.79
+Time:7935,AccPitch:-057.57, AccRoll:-066.87
+Time:7941,AccPitch:-056.60, AccRoll:-067.08
+Time:7948,AccPitch:-058.17, AccRoll:-067.35
+Time:7954,AccPitch:-057.34, AccRoll:-066.90
+Time:7960,AccPitch:-056.83, AccRoll:-066.87
+Time:7966,AccPitch:-056.75, AccRoll:-066.45
+Time:7972,AccPitch:-056.74, AccRoll:-066.54
+Time:7978,AccPitch:-058.64, AccRoll:-068.05
+Time:7984,AccPitch:-057.64, AccRoll:-067.20
+Time:7990,AccPitch:-058.19, AccRoll:-067.60
+Time:7996,AccPitch:-056.47, AccRoll:-066.67
+Time:8002,AccPitch:-057.07, AccRoll:-067.29
+Time:8008,AccPitch:-056.79, AccRoll:-066.64
+Time:8014,AccPitch:-056.81, AccRoll:-066.96
+Time:8020,AccPitch:-057.25, AccRoll:-067.00
+Time:8026,AccPitch:-057.86, AccRoll:-066.88
+Time:8033,AccPitch:-057.11, AccRoll:-066.93
+Time:8039,AccPitch:-057.51, AccRoll:-066.93
+Time:8045,AccPitch:-056.73, AccRoll:-066.52
+Time:8051,AccPitch:-057.48, AccRoll:-067.03
+Time:8057,AccPitch:-057.95, AccRoll:-067.55
+Time:8063,AccPitch:-057.83, AccRoll:-067.76
+Time:8069,AccPitch:-057.27, AccRoll:-067.08
+Time:8075,AccPitch:-058.76, AccRoll:-067.85
+Time:8081,AccPitch:-056.56, AccRoll:-067.34
+Time:8087,AccPitch:-056.98, AccRoll:-067.20
+Time:8093,AccPitch:-056.96, AccRoll:-067.04
+Time:8099,AccPitch:-058.16, AccRoll:-067.58

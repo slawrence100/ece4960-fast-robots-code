@@ -23,22 +23,24 @@
 #include "SparkFun_VL53L1X.h" //Click here to get the library: http://librarymanager/All#SparkFun_VL53L1X
 
 //Optional interrupt and shutdown pins.
-#define SHUTDOWN_PIN 8
 #define INTERRUPT_PIN 3
 
-SFEVL53L1X distanceSensor(Wire, SHUTDOWN_PIN, INTERRUPT_PIN);
+#define SHUTDOWN_ONE 8
+#define SHUTDOWN_TWO 4
 
-SFEVL53L1X distanceSensorTwo(Wire, 4, INTERRUPT_PIN);
+SFEVL53L1X distanceSensor(Wire, SHUTDOWN_ONE, INTERRUPT_PIN);
+
+SFEVL53L1X distanceSensorTwo(Wire, SHUTDOWN_TWO, INTERRUPT_PIN);
 
 void setup(void)
 {
   // Activate 1 ToF sensor
-  pinMode(8, OUTPUT);
-  digitalWrite(8, HIGH);
+  pinMode(SHUTDOWN_ONE, OUTPUT);
+  digitalWrite(SHUTDOWN_ONE, HIGH);
 
   // Explicilty deactivate the other ToF Sensor
-  pinMode(4, OUTPUT);
-  digitalWrite(4, LOW);
+  pinMode(SHUTDOWN_TWO, OUTPUT);
+  digitalWrite(SHUTDOWN_TWO, LOW);
   
   Wire.begin();
   Serial.begin(115200);
@@ -56,7 +58,7 @@ void setup(void)
   Serial.println("Changing sensor address to 0x30");
   distanceSensor.setI2CAddress(0x30);
   // ...then reactivate the other
-  digitalWrite(4, HIGH);
+  digitalWrite(SHUTDOWN_TWO, HIGH);
   delay(500);
   distanceSensorTwo.setDistanceModeShort();
   if (distanceSensorTwo.begin() != 0) //Begin returns 0 on a good init
@@ -72,6 +74,7 @@ void setup(void)
 void print_distance(SFEVL53L1X sensor, String sensorName) {
   sensor.startRanging();
   while (!sensor.checkForDataReady()) {
+    Serial.println("Waiting for " + sensorName);
     delay(10);
   }
   int distance = sensor.getDistance();
@@ -94,7 +97,6 @@ void print_distance(SFEVL53L1X sensor, String sensorName) {
 
 void loop(void)
 {
-  // print_distance(distanceSensor, "Sensor 1");
-  print_distance(distanceSensorTwo, "Sensor 2");
-  delay(1000);
+  print_distance(distanceSensor, "Sensor 1");
+  delay(500);
 }
