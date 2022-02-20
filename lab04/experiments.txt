@@ -19,3 +19,7 @@ Spun the bot as much as it could before it refused to move
 Battery was warmer after all movement happened
 
 BATTERY CHARGING
+Took longer than 1 hour 30 minutes.
+This tells us to not expect to experiment very often!
+
+
