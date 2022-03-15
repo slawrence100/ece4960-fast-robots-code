@@ -25,8 +25,8 @@
 //Optional interrupt and shutdown pins.
 #define INTERRUPT_PIN 3
 
-#define SHUTDOWN_ONE 8
-#define SHUTDOWN_TWO 4
+#define SHUTDOWN_ONE 4
+#define SHUTDOWN_TWO A5
 
 SFEVL53L1X distanceSensor(Wire, SHUTDOWN_ONE, INTERRUPT_PIN);
 
@@ -57,10 +57,11 @@ void setup(void)
   // NEW: Change first sensor address
   Serial.println("Changing sensor address to 0x30");
   distanceSensor.setI2CAddress(0x30);
+  
   // ...then reactivate the other
   digitalWrite(SHUTDOWN_TWO, HIGH);
   delay(500);
-  distanceSensorTwo.setDistanceModeShort();
+  
   if (distanceSensorTwo.begin() != 0) //Begin returns 0 on a good init
   {
     Serial.println("Sensor 2 failed to begin. Please check wiring. Freezing...");
@@ -98,5 +99,6 @@ void print_distance(SFEVL53L1X sensor, String sensorName) {
 void loop(void)
 {
   print_distance(distanceSensor, "Sensor 1");
+  print_distance(distanceSensorTwo, "Sensor 2");
   delay(500);
 }
