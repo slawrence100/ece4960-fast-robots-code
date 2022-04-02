@@ -7,6 +7,8 @@
 
 #define ROLL_CONSTANT 0.05
 #define PITCH_CONSTANT 0.05
+#define ACC_PITCH_CONSTANT 0.5
+#define ACC_ROLL_CONSTANT 0.5
 
 ICM_20948_I2C myICM;
 
@@ -14,6 +16,7 @@ bool first = true;
 float roll = 0;
 float pitch = 0;
 float dt = 1.0/28;
+float accPitch_prev, accRoll_prev;
 
 void setup()
 {
@@ -106,10 +109,15 @@ void printScaledAGMT(ICM_20948_I2C *sensor){
   if (first) {
     pitch = accPitch - gyrPitch * dt;
     roll = accRoll - gyrPitch * dt;
+    accPitch_prev = accPitch;
+    accRoll_prev = accRoll;
     first = false;
   } else {
-    pitch = (pitch + gyrPitch * dt)*(1-PITCH_CONSTANT) + accPitch * PITCH_CONSTANT;
-    roll = (roll + gyrRoll * dt)*(1-ROLL_CONSTANT) + accRoll * ROLL_CONSTANT;
+    accPitch = ACC_PITCH_CONSTANT * accPitch + ((1-ACC_PITCH_CONSTANT) * accPitch_prev);
+    accRoll = ACC_ROLL_CONSTANT * accRoll + ((1-ACC_ROLL_CONSTANT) * accRoll_prev);
+    accPitch_prev = accPitch; accRoll_prev = accRoll;
+    pitch = (pitch + gyrPitch * dt);// *(1-PITCH_CONSTANT) + accPitch * PITCH_CONSTANT;
+    roll = (roll + gyrRoll * dt);// *(1-ROLL_CONSTANT) + accRoll * ROLL_CONSTANT;
   }
   SERIAL_PORT.print("FiltPitch:");
   printFormattedFloat(pitch,3,2);

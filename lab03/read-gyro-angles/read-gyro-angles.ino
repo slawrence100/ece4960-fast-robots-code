@@ -9,7 +9,7 @@ ICM_20948_I2C myICM;
 float gyrXangle = 0.0;
 float gyrYangle = 0.0;
 float gyrZangle = 0.0;
-float dt = 1.0/30.0;
+float dt = 1.0/28.0;
 
 void setup()
 {
