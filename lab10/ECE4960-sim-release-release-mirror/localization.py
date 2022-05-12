@@ -317,7 +317,7 @@ class BaseLocalization():
         LOG.info('---------- PREDICTION STATS -----------')
         current_odom, current_gt = self.robot.get_pose()
 
-        gt_index = self.mapper.to_map(*current_gt)
+        gt_index = self.mapper.to_map(current_gt)
         argmax_bel_bar = get_max(self.bel_bar)
         current_prior_belief = self.mapper.from_map(*argmax_bel_bar[0])
         pos_error = np.array(current_gt) - \
@@ -344,7 +344,7 @@ class BaseLocalization():
     # Print belief statistics (for after update step) and plot data in the plotter
     def print_update_stats(self, plot_data=True):
         LOG.info('---------- UPDATE STATS -----------')
-        current_gt = self.robot.get_pose()[1]
+        current_gt = self.robot.get_pose()
 
         gt_index = self.mapper.to_map(*current_gt)
         argmax_bel = get_max(self.bel)

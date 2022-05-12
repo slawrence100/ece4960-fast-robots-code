@@ -75,7 +75,7 @@ void setup(void)
 void print_distance(SFEVL53L1X sensor, String sensorName) {
   sensor.startRanging();
   while (!sensor.checkForDataReady()) {
-    Serial.println("Waiting for " + sensorName);
+    // Serial.println("Waiting for " + sensorName);
     delay(10);
   }
   int distance = sensor.getDistance();
@@ -86,19 +86,12 @@ void print_distance(SFEVL53L1X sensor, String sensorName) {
   Serial.print(" | ");
   Serial.print("Distance(mm): ");
   Serial.print(distance);
-  
-  float distanceInches = distance * 0.0393701;
-  float distanceFeet = distanceInches / 12.0;
-
-  Serial.print("\tDistance(ft): ");
-  Serial.print(distanceFeet, 2);
 
   Serial.println();
 }
 
 void loop(void)
 {
-  print_distance(distanceSensor, "Sensor 1");
-  print_distance(distanceSensorTwo, "Sensor 2");
-  delay(500);
+  // print_distance(distanceSensor, "Sensor 1");
+  print_distance(distanceSensor, "Sensor 2");
 }
