@@ -7,4 +7,5 @@ class CMD(Enum):
     GET_DATA = 3
     MOVE_DISTANCE = 4
     TURN_DEGREES = 5
+    MOVE_DURATION = 6
 

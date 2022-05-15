@@ -1,4 +1,4 @@
-// Lab 13: Real Path Planning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+// Lab 8 Redo: stunts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 #include <ArduinoBLE.h>
 
 #include "BLECStringCharacteristic.h"
@@ -40,6 +40,9 @@
 #define MAX_POWER 127
 #define COAST_POWER 10
 
+// Other constants
+#define PID_HISTORY_LEN 300
+
 //////////// BLE UUIDs ////////////
 #define BLE_UUID_TEST_SERVICE "6a9e1931-4e08-4301-820e-0fa0f540d922"
 
@@ -71,6 +74,9 @@ BLEFloatCharacteristic tx_characteristic_float_tof1(BLE_UUID_TX_TOF1,
                                                     BLERead | BLENotify);
 BLEFloatCharacteristic tx_characteristic_float_imu_pitch(BLE_UUID_TX_IMU_PITCH,
                                                     BLERead | BLENotify);
+BLEFloatCharacteristic tx_characteristic_float_motor_pid(BLE_UUID_TX_MOTOR_PID,
+                                                    BLERead | BLENotify);
+
 // RX
 RobotCommand robot_cmd(":|");
 
@@ -89,6 +95,13 @@ ICM_20948_I2C myICM;
 // Be able to store 18 measurements 20 degrees apart
 float sensor_meas[18];
 float angle_meas[18];
+
+float pid_history[PID_HISTORY_LEN];
+float pid_time_history[PID_HISTORY_LEN];
+float tof_history[TOF_HISTORY_LEN];
+float tof_time_history[TOF_HISTORY_LEN];
+int pid_idx = 0; int tof_idx = 0;
+
 
 int tempMeasurement = -1;
 
@@ -119,10 +132,12 @@ float motor_calib_factor_fwd = 2.0;
 enum CommandTypes {
   SET_MOTOR_CALIB,
   SET_PID,
-  OBSERVE,
-  GET_DATA,
   MOVE_DISTANCE,
   TURN_DEGREES,
+  STOP,
+  DO_STUNT,
+  GET_DATA,
+  SPIN,
   MOVE_DURATION
 };
 
@@ -140,6 +155,7 @@ void handle_command() {
   int spin_left, spin_right;
   float temp_avg;
   int temp_move;
+  int temp_move2;
   int temp_time;
 
   // Get robot command type (an integer)
@@ -177,43 +193,58 @@ void handle_command() {
       if (!success) return;
       imu_dt = 1.0 / imu_dt;
       first_imu = true;
-      break;
-    
-    case OBSERVE:
-      for (int i = 0; i < 18; i++) {
-        turn_degrees(-20);
-        for (int j = 0; j < 3; j++) {
-          tempMeasurement += get_tof_measurement(distanceSensorTwo, 5);
-        }
-        sensor_meas[i] = tempMeasurement;
-        angle_meas[i] = pitch;
-        tempMeasurement = 0;
-        central.connected();
-      }
-      break;
-
-    case GET_DATA:
-      for (int i = 0; i < 18; i++) {
-        Serial.println("Writing data point ");
-        Serial.println(i);
-        Serial.println("of ");
-        Serial.println(sensor_meas[i]);
-        central.connected();
-        tx_characteristic_float_tof1.writeValue(sensor_meas[i]);
-        tx_characteristic_float_imu_pitch.writeValue(angle_meas[i]);
-      }
+      pid_idx = 0; tof_idx = 0;
       break;
       
     case MOVE_DISTANCE:
       success = robot_cmd.get_next_value(temp_move);
       if (!success) return;
       move_distance(temp_move);
-      break;
+      return;
     
     case TURN_DEGREES:
       success = robot_cmd.get_next_value(temp_move);
       if (!success) return;
       turn_degrees(temp_move);
+      return;
+
+    case STOP:
+      stop_motors(true);
+      break;
+
+    case DO_STUNT:
+      success = robot_cmd.get_next_value(temp_move);
+      if (!success) return;
+      drive_until(temp_move);
+      move_backward(255 / motor_calib_factor_fwd);
+      delay(1500);
+      stop_motors(true);
+      break;
+
+    case GET_DATA:
+      Serial.println("Sending data...");
+      for (int i = 0; i < TOF_HISTORY_LEN; i++) {
+        tx_characteristic_float_tof1.writeValue(tof_history[i]);
+      }
+      for (int i = 0; i < PID_HISTORY_LEN; i++) {
+        tx_characteristic_float_motor_pid.writeValue(pid_history[i]);
+      }
+      for (int i = 0; i < PID_HISTORY_LEN; i++) {
+        tx_characteristic_float_imu_pitch.writeValue(pid_time_history[i]);
+      }
+      Serial.println("Done sending data");
+      break;
+
+    case SPIN:
+      success = robot_cmd.get_next_value(spin_left);
+      if (!success) return;
+      success = robot_cmd.get_next_value(spin_right);
+      if (!success) return;
+      success = robot_cmd.get_next_value(temp_move);
+      if (!success) return;
+      spin(spin_left, spin_right);
+      delay(temp_move);
+      stop_motors(true);
       break;
 
     case MOVE_DURATION:
@@ -229,7 +260,7 @@ void handle_command() {
       delay(temp_time);
       stop_motors(true);
       break;
-    
+
     default:
       Serial.print("Invalid Command Type: ");
       Serial.println(cmd_type);
@@ -247,7 +278,6 @@ void turn_degrees(int deg) {
   first_imu = true;
   while (true) {
     get_imu_measurement(&myICM, true);
-    central.connected();
     int motor_power = pid_proportional_rot * (pitch - deg);
     if (motor_power >= 200 || motor_power <= -200) {
       motor_power = 200 * ((motor_power < 0) ? -1 : 1);
@@ -277,7 +307,6 @@ void move_distance(int dist) {
   while (true) {
     tof_dist = get_tof_measurement(distanceSensorTwo, 1);
     motor_power = pid_proportional_fwd * (tof_dist - target);
-    central.connected();
     if (motor_power < -1*pid_min_power_fwd) {
       move_backward(motor_power);
     } else if (motor_power > -1*pid_min_power_fwd && motor_power < -1*coast_power) {
@@ -291,6 +320,37 @@ void move_distance(int dist) {
       move_forward(motor_power);
     }
   }
+}
+
+void drive_until(int tof_target) {
+  int tof_dist = get_tof_measurement(distanceSensorTwo, 5);
+  int motor_power;
+  int coast_power = 20;
+  while (true) {
+    tof_dist = get_tof_measurement(distanceSensorTwo, 1);
+    motor_power = pid_proportional_fwd * (tof_dist - tof_target);
+    record_data(tof_dist, motor_power);
+    if (motor_power < -1*pid_min_power_fwd) {
+      move_backward(motor_power);
+    } else if (motor_power > -1*pid_min_power_fwd && motor_power < -1*coast_power) {
+      stop_motors(false);
+    } else if (motor_power > -1*coast_power && motor_power < coast_power) {
+      stop_motors(true);
+      return;
+    } else if (motor_power > coast_power && motor_power < pid_min_power_fwd) {
+      stop_motors(false);
+    } else if (motor_power > pid_min_power_fwd) {
+      move_forward(motor_power);
+    }
+  }
+}
+
+void record_data(float tof, float pid){
+  tof_history[tof_idx] = tof;
+  pid_history[pid_idx] = pid;
+  pid_time_history[pid_idx] = (float)millis();
+  tof_idx++;
+  pid_idx++;
 }
 
 void setup_sensors() {
@@ -353,6 +413,15 @@ void setup_sensors() {
   
   Serial.println("IMU Ready!");
 
+  for (int i = 0; i < TOF_HISTORY_LEN; i++){
+    tof_history[i] = i;
+  }
+  for (int i = 0; i < PID_HISTORY_LEN; i++) {
+    pid_history[i] = i;
+  }
+  for (int i = 0; i < PID_HISTORY_LEN; i++){
+    pid_time_history[i] = i;
+  }
 
   Serial.println("All sensors are ready!");
 }
@@ -384,6 +453,7 @@ void setup() {
   testService.addCharacteristic(rx_characteristic_string);
   testService.addCharacteristic(tx_characteristic_float_tof1);
   testService.addCharacteristic(tx_characteristic_float_imu_pitch);
+  testService.addCharacteristic(tx_characteristic_float_motor_pid);
 
   // Add BLE service
   BLE.addService(testService);
@@ -444,6 +514,7 @@ int get_tof_measurement(SFEVL53L1X sensor, int nTries) {
     sensor.stopRanging();
     sensor.startRanging();
   }
+
   return distance / nTries;
 
 }
