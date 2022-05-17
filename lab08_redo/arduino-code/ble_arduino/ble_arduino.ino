@@ -138,7 +138,8 @@ enum CommandTypes {
   DO_STUNT,
   GET_DATA,
   SPIN,
-  MOVE_DURATION
+  MOVE_DURATION,
+  DO_TIMED_STUNT
 };
 
 void handle_command() {
@@ -216,8 +217,7 @@ void handle_command() {
       success = robot_cmd.get_next_value(temp_move);
       if (!success) return;
       drive_until(temp_move);
-      move_backward(255 / motor_calib_factor_fwd);
-      delay(1500);
+      move_backward_and_record(255, 1000);
       stop_motors(true);
       break;
 
@@ -260,7 +260,45 @@ void handle_command() {
       delay(temp_time);
       stop_motors(true);
       break;
+    
+    case DO_TIMED_STUNT:
+      Serial.println("Forward");
+      // Move forward
+      success = robot_cmd.get_next_value(temp_time);
+      if (!success) return;
+      success = robot_cmd.get_next_value(temp_move);
+      if (!success) return;
+      success = robot_cmd.get_next_value(temp_move2);
+      if (!success) return;
+      
+      move_forward_and_record(temp_move, temp_time);
+      
+      Serial.println("Stop");
+      // Stop midway if asked
+      success = robot_cmd.get_next_value(temp_move);
+      if (!success) return;
+      if (temp_move == 1) {
+        Serial.println("Sent stop");
+        stop_motors(true);
+        delay(100);
+      }
 
+      Serial.println("Backward");
+      // move backwards
+      success = robot_cmd.get_next_value(temp_time);
+      if (!success) return;
+      success = robot_cmd.get_next_value(temp_move);
+      if (!success) return;
+      success = robot_cmd.get_next_value(temp_move2);
+      if (!success) return;
+      Serial.println(temp_move);
+      Serial.println(temp_move2);
+      move_backward_and_record(temp_move, temp_time);
+      
+      Serial.println("Done");
+      stop_motors(true);
+      break;
+      
     default:
       Serial.print("Invalid Command Type: ");
       Serial.println(cmd_type);
@@ -533,6 +571,32 @@ void move_forward(int base_power) {
 
   analogWrite(MOTOR_A_BACK, 0);
   analogWrite(MOTOR_B_BACK, 0);
+}
+
+void move_forward_and_record(int base_power, int duration) {
+  unsigned long target = millis() + duration;
+  bool done = false;
+  int meas;
+  
+  move_forward(base_power);
+  while (!done) {
+    meas = get_tof_measurement(distanceSensorTwo, true);
+    record_data(meas, base_power);
+    done = (millis() > target);
+  }
+}
+
+void move_backward_and_record(int base_power, int duration) {
+  unsigned long target = millis() + duration;
+  bool done = false;
+  int meas;
+  
+  move_backward(base_power);
+  while (!done) {
+    meas = get_tof_measurement(distanceSensorTwo, true);
+    record_data(meas, base_power);
+    done = (millis() > target);
+  }
 }
 
 void spin(int spin_left, int spin_right) {

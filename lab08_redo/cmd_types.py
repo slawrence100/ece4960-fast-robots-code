@@ -10,4 +10,5 @@ class CMD(Enum):
     GET_DATA = 6
     SPIN = 7
     MOVE_DURATION = 8
+    DO_TIMED_STUNT = 9
 
