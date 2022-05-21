@@ -71,6 +71,8 @@ BLEFloatCharacteristic tx_characteristic_float_tof1(BLE_UUID_TX_TOF1,
                                                     BLERead | BLENotify);
 BLEFloatCharacteristic tx_characteristic_float_imu_pitch(BLE_UUID_TX_IMU_PITCH,
                                                     BLERead | BLENotify);
+BLEDevice central;
+
 // RX
 RobotCommand robot_cmd(":|");
 
@@ -211,6 +213,7 @@ void turn_degrees(int deg) {
   first_imu = true;
   while (true) {
     get_imu_measurement(&myICM, true);
+    central.connected();
     Serial.println("Angle: ");
     Serial.print(pitch);
     int motor_power = pid_proportional * (pitch - deg);
@@ -477,7 +480,7 @@ int clip_motor_value(float val_in) {
 
 void loop() {
   // Listen for connections
-  BLEDevice central = BLE.central();
+  central = BLE.central();
   
   // If a central is connected to the peripheral
   if (central) {

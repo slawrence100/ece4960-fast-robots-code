@@ -99,6 +99,7 @@ float pitch;
 float roll;
 bool first_imu = true;
 float imu_dt = 1.0/60;
+float drift;
 
 long interval = 500;
 static long previousMillis = 0;
@@ -109,10 +110,23 @@ int pid_min_power_rot = 100;
 float pid_proportional_rot = 0.0;
 float motor_calib_factor_rot = 2.0;
 
+float pid_integral_rot = 0.0;
+float pid_derivative_rot = 0.0;
+float pid_past_error_rot = 0.0;
+unsigned long pid_past_time_rot = 0.0;
+
 // Translational variables (fwd)
 int pid_min_power_fwd = 100;
+int pid_max_power_fwd = 200;
 float pid_proportional_fwd = 0.0;
 float motor_calib_factor_fwd = 2.0;
+
+float pid_integral_fwd = 0.0;
+float pid_derivative_fwd = 0.0;
+float pid_past_error_fwd = 0.0;
+unsigned long pid_past_time_fwd = 0.0;
+
+
 
 //////////// Global Variables ////////////
 
@@ -167,11 +181,21 @@ void handle_command() {
     case SET_PID:
       success = robot_cmd.get_next_value(pid_proportional_rot);
       if (!success) return;
+      success = robot_cmd.get_next_value(pid_integral_rot);
+      if (!success) return;
+      success = robot_cmd.get_next_value(pid_derivative_rot);
+      if (!success) return;
       success = robot_cmd.get_next_value(pid_min_power_rot);
       if (!success) return;
       success = robot_cmd.get_next_value(pid_proportional_fwd);
       if (!success) return;
+      success = robot_cmd.get_next_value(pid_integral_fwd);
+      if (!success) return;
+      success = robot_cmd.get_next_value(pid_derivative_fwd);
+      if (!success) return;
       success = robot_cmd.get_next_value(pid_min_power_fwd);
+      if (!success) return;
+      success = robot_cmd.get_next_value(pid_max_power_fwd);
       if (!success) return;
       success = robot_cmd.get_next_value(imu_dt);
       if (!success) return;
@@ -207,12 +231,18 @@ void handle_command() {
     case MOVE_DISTANCE:
       success = robot_cmd.get_next_value(temp_move);
       if (!success) return;
+      Serial.print("Moving distance: ");
+      Serial.println(temp_move);
       move_distance(temp_move);
+      Serial.print("Done moving distance");
+      return;
       break;
     
     case TURN_DEGREES:
       success = robot_cmd.get_next_value(temp_move);
       if (!success) return;
+      Serial.print("Turning degrees: ");
+      Serial.print(temp_move);
       turn_degrees(temp_move);
       break;
 
@@ -245,14 +275,40 @@ void handle_command() {
 void turn_degrees(int deg) {
   pitch = 0;
   first_imu = true;
+  float pid_error = 0.0;
+  unsigned long pid_dt = 0.0;
+  float pid_integral_error_acc = 0.0;
+  int motor_power;
+  
+  pid_past_time_rot = millis();
+
   while (true) {
     get_imu_measurement(&myICM, true);
+    Serial.print("Angle: ");
+    Serial.println(pitch);
+    
+    // Do PID control
+    pid_error = (pitch - deg);
+    pid_dt = (millis() - pid_past_time_rot);
+    pid_integral_error_acc += pid_error * pid_dt;
+    // P
+    motor_power = pid_proportional_rot * pid_error;
+    if (pid_dt > 0){
+      // I
+      motor_power += pid_integral_rot * pid_integral_error_acc;
+      // D
+      motor_power += pid_derivative_rot * (pid_error - pid_past_error_rot) / pid_dt;
+    }
+    // Update past values
+    pid_past_time_rot = millis();
+    pid_past_error_rot = pid_error;
+
     central.connected();
-    int motor_power = pid_proportional_rot * (pitch - deg);
+
     if (motor_power >= 200 || motor_power <= -200) {
       motor_power = 200 * ((motor_power < 0) ? -1 : 1);
       spin(motor_power, -1*motor_power * motor_calib_factor_rot);
-    } else if (abs(pitch - deg) < 0.5) {
+    } else if (abs(pitch - deg) < 0.1) {
       // close enough to equal, so make a hard stop
       stop_motors(true);
       return;
@@ -270,24 +326,64 @@ void turn_degrees(int deg) {
 void move_distance(int dist) {
   int tof_dist = get_tof_measurement(distanceSensorTwo, 5);
   // setpoint is when the sensor reads the same as it would have in the target's place  
-  int target = tof_dist - dist;
+  int target = max(10, tof_dist - dist);
   int motor_power;
   int coast_power = 20;
-
+  float pid_error = 0.0;
+  unsigned long pid_dt = 0.0;
+  float pid_integral_error_acc = 0.0;
+  
+  pid_past_time_fwd = millis();
+  
   while (true) {
+    motor_power = 0;
     tof_dist = get_tof_measurement(distanceSensorTwo, 1);
-    motor_power = pid_proportional_fwd * (tof_dist - target);
+    int p_gain; int i_gain; int d_gain;
+    // Do PID control
+    pid_error = (tof_dist - target);
+    pid_dt = (millis() - pid_past_time_fwd);
+    pid_integral_error_acc += pid_error * pid_dt;
+    // P
+    p_gain = pid_proportional_fwd * (tof_dist - target);
+    motor_power += p_gain;
+    if (pid_dt > 0){
+      // I
+      i_gain = min((pid_max_power_fwd - pid_min_power_fwd) / 3 , pid_integral_fwd * pid_integral_error_acc);
+      motor_power += i_gain;
+      // D
+      d_gain += pid_derivative_fwd * (pid_error - pid_past_error_fwd) / pid_dt;
+      motor_power += d_gain;
+    }
+    Serial.print("PID Gains: ");
+    Serial.print(p_gain);
+    Serial.print(" / ");
+    Serial.print(i_gain);
+    Serial.print(" / ");
+    Serial.println(d_gain);
+    // Update past values
+    pid_past_time_fwd = millis();
+    pid_past_error_fwd = pid_error;
+
     central.connected();
+
+    Serial.print("Motor power: ");
+    Serial.println(motor_power);
+    
     if (motor_power < -1*pid_min_power_fwd) {
-      move_backward(motor_power);
-    } else if (motor_power > -1*pid_min_power_fwd && motor_power < -1*coast_power) {
-      stop_motors(false);
-    } else if (motor_power > -1*coast_power && motor_power < coast_power) {
+      motor_power = min(-35, motor_power);
+      Serial.print("Backwards ");
+      Serial.println(motor_power);
+      move_backward(abs(motor_power));
+      
+    } else if (motor_power >= -1*pid_min_power_fwd && motor_power <= pid_min_power_fwd) {
+      Serial.print("STOP");
       stop_motors(true);
       return;
-    } else if (motor_power > coast_power && motor_power < pid_min_power_fwd) {
-      stop_motors(false);
+      
     } else if (motor_power > pid_min_power_fwd) {
+      motor_power = min(pid_max_power_fwd, 35);
+      Serial.print("Forwards ");
+      Serial.println(motor_power);
       move_forward(motor_power);
     }
   }
@@ -334,6 +430,8 @@ void setup_sensors() {
   Serial.println("Sensor 2 online!");
 
   // distanceSensor.setProxIntegrationTime(2);
+//  distanceSensor.setDistanceModeLong();
+//  distanceSensorTwo.setDistanceModeLong();
   
   delay(250);
   /////////// End ToF ///////////////
@@ -368,7 +466,7 @@ void setup() {
   Serial.begin(115200);
 
   setup_sensors();
-
+  
   setup_motors();
 
   BLE.begin();
@@ -412,8 +510,6 @@ void get_imu_measurement(ICM_20948_I2C* sensor, bool blocking) {
     while (!sensor->dataReady()) {}
   }
   myICM.getAGMT();
-  float accPitch = atan2(sensor->accX(), sensor->accZ())* 360 / (2 * M_PI);
-  float accRoll = atan2(sensor->accY(), sensor->accZ()) * 360 / (2 * M_PI);
   float gyrPitch = sensor->gyrX();
   float gyrRoll = sensor->gyrY();
   
@@ -422,8 +518,7 @@ void get_imu_measurement(ICM_20948_I2C* sensor, bool blocking) {
     roll = 0 - gyrRoll * imu_dt;
     first_imu = false;
   } else {
-    pitch = (pitch + gyrPitch * imu_dt);
-    roll = (roll + gyrRoll * imu_dt);
+    pitch = (pitch + gyrPitch * imu_dt) - (drift * imu_dt);
   }
 }
 
@@ -444,6 +539,8 @@ int get_tof_measurement(SFEVL53L1X sensor, int nTries) {
     sensor.stopRanging();
     sensor.startRanging();
   }
+  Serial.print("TOF reads: ");
+  Serial.println(distance / nTries);
   return distance / nTries;
 
 }
